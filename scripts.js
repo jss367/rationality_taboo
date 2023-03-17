@@ -1,3 +1,12 @@
+
+const timerElement = document.getElementById('timer');
+const timeRemainingElement = document.getElementById('time-remaining');
+const defaultTime = 30; // Change this value to adjust the round duration (in seconds)
+
+let timeRemaining = defaultTime;
+let timerInterval;
+
+
 let words = [];
 
 const wordElement = document.getElementById('word');
@@ -9,6 +18,7 @@ function generateRandomIndex(max) {
 }
 
 function updateWord() {
+  startTimer();
   const randomIndex = generateRandomIndex(words.length);
   const wordObject = words[randomIndex];
 
@@ -34,3 +44,21 @@ fetch('words.json')
   .catch(error => {
     console.error('Error fetching words data:', error);
   });
+
+// Add this new function to handle the timer countdown
+function startTimer() {
+  clearInterval(timerInterval);
+  timeRemaining = defaultTime;
+  timeRemainingElement.textContent = timeRemaining;
+
+  timerInterval = setInterval(() => {
+    timeRemaining--;
+    timeRemainingElement.textContent = timeRemaining;
+
+    if (timeRemaining <= 0) {
+      clearInterval(timerInterval);
+      // Optionally, add any actions you want to perform when the timer runs out
+    }
+  }, 1000);
+}
+
