@@ -13,7 +13,7 @@
     },
     {
       "word": "Superintelligence",
-      "forbiddenWords": ["AI", "artificial", "smart", "Singularity"]
+      "forbiddenWords": ["AI", "artificial", "smart", "Singularity", "Nick Bostrom"]
     },
     {
       "word": "Utilitarianism",
@@ -38,6 +38,47 @@
     {
       "word": "Roko's Basilisk",
       "forbiddenWords": ["thought experiment", "AI", "future", "punishment"]
+    },
+    {
+        "word": "Occam's Razor",
+        "forbiddenWords": ["simplicity", "hypothesis", "principle", "assumptions"]
+    },
+    {
+        "word": "Simulation Hypothesis",
+        "forbiddenWords": ["virtual", "reality", "computer", "universe"]
+    },
+    {
+        "word": "Black Swan",
+        "forbiddenWords": ["Taleb", "unexpected", "event", "impact"]
+    },
+    {
+        "word": "Dunbar's Number",
+        "forbiddenWords": ["social", "relationships", "limit", "cognitive"]
+    },
+    {
+        "word": "Great Filter",
+        "forbiddenWords": ["Fermi Paradox", "extinction", "barrier", "civilizations"]
+    },
+    {
+        "word": "Meditation",
+        "forbiddenWords": ["mindfulness", "focus", "practice", "breathing"]
+    },
+    {
+        "word": "Gödel's Incompleteness",
+        "forbiddenWords": ["theorem", "mathematics", "logic", "provable"]
+    },
+    {
+        "word": "Turing Test",
+        "forbiddenWords": ["AI", "artificial", "intelligence", "human-like"]
+    },
+    {
+        "word": "Quantum Mechanics",
+        "forbiddenWords": ["physics", "particles", "superposition", "wave function"]
+    },
+    {
+        "word": "Coherent Extrapolated Volition",
+        "forbiddenWords": ["Yudkowsky", "AI", "future", "human values"]
     }
-  ]
+    ]
+      
   
