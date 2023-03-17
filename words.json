@@ -42,7 +42,6 @@
       "Freezing",
       "Preservation",
       "Death",
-      "Revival",
       "Temperature",
       "Future"
     ]
@@ -120,7 +119,8 @@
     "forbiddenWords": [
       "Robin Hanson",
       "Extraterrestrial",
-      "Galaxy"
+      "Galaxy",
+      "UFO"
     ]
   },
   {
@@ -146,7 +146,8 @@
     "forbiddenWords": [
       "Blog",
       "Website",
-      "Post"
+      "Post",
+      "Site"
     ]
   },
   {
@@ -183,7 +184,8 @@
     "forbiddenWords": [
       "Physics",
       "Superposition",
-      "Wave function"
+      "Wave function",
+      "Schrödinger"
     ]
   },
   {
@@ -248,9 +250,7 @@
     "word": "Superintelligence",
     "forbiddenWords": [
       "AI",
-      "Artificial",
       "Machines",
-      "Intelligent",
       "Singularity",
       "Nick Bostrom"
     ]
@@ -259,9 +259,9 @@
     "word": "Turing Test",
     "forbiddenWords": [
       "AI",
-      "Artificial",
+      "Human",
       "Intelligence",
-      "Human-like"
+      "Conversation"
     ]
   },
   {
@@ -269,7 +269,6 @@
     "forbiddenWords": [
       "Ethics",
       "Happiness",
-      "Greatest",
       "Good",
       "Philosophy",
       "Consequentialism"
