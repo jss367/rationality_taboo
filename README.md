@@ -1,1 +1,1 @@
-# rationality_taboo
+# rationalist_taboo
