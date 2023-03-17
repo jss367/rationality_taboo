@@ -6,7 +6,7 @@
     {
       "word": "Black Swan",
       "forbiddenWords": ["Taleb", "Unexpected", "Event", "Impact"]
-  },
+    },
     {
       "word": "Coherent Extrapolated Volition",
       "forbiddenWords": ["Yudkowsky", "AI", "future", "human values"]
@@ -52,33 +52,28 @@
       "forbiddenWords": ["Fermi Paradox", "Extinction", "Civilizations"]
     },
     {
+      "word": "Instrumental",
+      "forbiddenWords": ["Goal", "Means", "Ends", "Purpose", "Value"]
+    },
+    {
+      "word": "Meditation",
+      "forbiddenWords": ["Mindfulness", "Focus", "Practice", "Breathing"]
+    },
+    {
       "word": "Moloch",
       "forbiddenWords": ["Coordination", "Competition", "Scott/SSC/ACX", "Incentives", "Meditations"]
     },
     {
-      "word": "Utilitarianism",
-      "forbiddenWords": ["Ethics", "Happiness", "Greatest", "Good", "Philosophy"]
-    },
-    {
-      "word": "Superintelligence",
-      "forbiddenWords": ["AI", "Artificial", "Machines", "Smart", "Cognitive"]
-    },
-    {
-      "word": "Singularity",
-      "forbiddenWords": ["Technological", "Accelerating", "Future", "Rapid", "Progress"]
-    },
-    {
-      "word": "Superintelligence",
-      "forbiddenWords": ["AI", "artificial", "smart", "Singularity", "Nick Bostrom"]
-    },
-    {
-      "word": "Utilitarianism",
-      "forbiddenWords": ["ethics", "happiness", "morality", "consequentialism"]
-    },
-
-    {
       "word": "Occam's Razor",
       "forbiddenWords": ["Simplicity", "Explanation", "Hypothesis", "Complexity", "Principle"]
+    },
+    {
+      "word": "Quantum Mechanics",
+      "forbiddenWords": ["Physics", "Superposition", "Wave function"]
+    },
+    {
+      "word": "Pareto Principle",
+      "forbiddenWords": ["80/20 rule", "Efficiency", "Distribution", "Economics", "Productivity"]
     },
     {
       "word": "Rationalist",
@@ -86,47 +81,36 @@
     },
     {
       "word": "Roko's Basilisk",
-      "forbiddenWords": ["thought experiment", "AI", "future", "punishment"]
-    },
-
-    {
-        "word": "Simulation Hypothesis",
-        "forbiddenWords": ["virtual", "reality", "computer", "universe"]
+      "forbiddenWords": ["Thought experiment", "AI", "Blackmail", "Future", "Cooperation", "Punish"]
     },
     {
-        "word": "Meditation",
-        "forbiddenWords": ["mindfulness", "focus", "practice", "breathing"]
-    },
-
-    {
-        "word": "Turing Test",
-        "forbiddenWords": ["AI", "Artificial", "Intelligence", "Human-like"]
-    },
-    {
-        "word": "Quantum Mechanics",
-        "forbiddenWords": ["Physics", "Superposition", "Wave function"]
-    },
-    {
-      "word": "Roko's Basilisk",
-      "forbiddenWords": ["Thought experiment", "AI", "Blackmail", "Future", "Cooperation"]
-    },
-    {
-      "word": "Instrumental",
-      "forbiddenWords": ["Goal", "Means", "Ends", "Purpose", "Value"]
+      "word": "Scott Alexander",
+      "forbiddenWords": ["SSC/ACX", "Blogger", "Psychiatrist"]
     },
     {
       "word": "Simulation Hypothesis",
       "forbiddenWords": ["Virtual reality", "Matrix", "Universe", "Nick Bostrom", "Technology"]
     },
     {
-      "word": "Pareto Principle",
-      "forbiddenWords": ["80/20 rule", "Efficiency", "Distribution", "Economics", "Productivity"]
+      "word": "Singularity",
+      "forbiddenWords": ["Technological", "Accelerating", "Future", "Rapid", "Progress"]
+    },
+    {
+      "word": "Superintelligence",
+      "forbiddenWords": ["AI", "Artificial", "Machines", "Intelligent", "Singularity", "Nick Bostrom"]
+    },
+    {
+      "word": "Turing Test",
+      "forbiddenWords": ["AI", "Artificial", "Intelligence", "Human-like"]
+    },
+    {
+      "word": "Utilitarianism",
+      "forbiddenWords": ["Ethics", "Happiness", "Greatest", "Good", "Philosophy", "Consequentialism"]
     },
     {
       "word": "Yudkowsky",
       "forbiddenWords": ["Eliezer", "Bias", "LessWrong", "AI", "Sequences"]
     }
-
     ]
       
   
