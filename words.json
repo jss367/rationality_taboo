@@ -1,15 +1,71 @@
 [
     {
       "word": "Bayesian",
-      "forbiddenWords": ["probability", "statistics", "inference", "priors"]
+      "forbiddenWords": ["Probability", "Statistics", "Inference", "Update", "Prior"]
     },
     {
-      "word": "Effective Altruism",
-      "forbiddenWords": ["charity", "impact", "philanthropy", "cause"]
+      "word": "Black Swan",
+      "forbiddenWords": ["Taleb", "Unexpected", "Event", "Impact"]
+  },
+    {
+      "word": "Coherent Extrapolated Volition",
+      "forbiddenWords": ["Yudkowsky", "AI", "future", "human values"]
     },
     {
       "word": "Cryonics",
-      "forbiddenWords": ["preservation", "freezing", "death", "future"]
+      "forbiddenWords": ["Freezing", "Preservation", "Death", "Revival", "Temperature", "Future"]
+    },
+    {
+      "word": "Dunbar's Number",
+      "forbiddenWords": ["Social", "Relationships", "Friends", "Cognitive", "Limit"]
+    },
+    {
+      "word": "Decision Theory",
+      "forbiddenWords": ["Choices", "Rational", "Outcome", "Payoff", "Preference"]
+    },
+    {
+      "word": "Effective Altruism",
+      "forbiddenWords": ["Charity", "Doing good", "Impact", "Resources", "Philanthropy"]
+    },
+    {
+      "word": "Epistemic",
+      "forbiddenWords": ["Knowledge", "Belief", "Justified", "Rational", "Uncertainty"]
+    },
+    {
+      "word": "Existential Risk",
+      "forbiddenWords": ["Extinction", "Humanity", "Global", "Catastrophe", "Threat"]
+    },
+    {
+      "word": "Fermi Paradox",
+      "forbiddenWords": ["Aliens", "Extraterrestrial", "Universe", "Life"]
+    },
+    {
+      "word": "Gödel's Incompleteness",
+      "forbiddenWords": ["Theorem", "Mathematics", "Logic", "Provable"]
+    },
+    {
+      "word": "Grabby Aliens",
+      "forbiddenWords": ["Robin Hanson", "Extraterrestrial"]
+    },
+    {
+      "word": "Great Filter",
+      "forbiddenWords": ["Fermi Paradox", "Extinction", "Civilizations"]
+    },
+    {
+      "word": "Moloch",
+      "forbiddenWords": ["Coordination", "Competition", "Scott/SSC/ACX", "Incentives", "Meditations"]
+    },
+    {
+      "word": "Utilitarianism",
+      "forbiddenWords": ["Ethics", "Happiness", "Greatest", "Good", "Philosophy"]
+    },
+    {
+      "word": "Superintelligence",
+      "forbiddenWords": ["AI", "Artificial", "Machines", "Smart", "Cognitive"]
+    },
+    {
+      "word": "Singularity",
+      "forbiddenWords": ["Technological", "Accelerating", "Future", "Rapid", "Progress"]
     },
     {
       "word": "Superintelligence",
@@ -19,66 +75,58 @@
       "word": "Utilitarianism",
       "forbiddenWords": ["ethics", "happiness", "morality", "consequentialism"]
     },
+
     {
-      "word": "Moloch",
-      "forbiddenWords": ["coordination", "failure", "incentives", "demon", "meditations"]
+      "word": "Occam's Razor",
+      "forbiddenWords": ["Simplicity", "Explanation", "Hypothesis", "Complexity", "Principle"]
     },
     {
       "word": "Rationalist",
-      "forbiddenWords": ["reason", "logic", "evidence", "community"]
-    },
-    {
-      "word": "Yudkowsky",
-      "forbiddenWords": ["Eliezer", "LessWrong", "AI", "sequences"]
-    },
-    {
-      "word": "Fermi Paradox",
-      "forbiddenWords": ["aliens", "extraterrestrial", "universe", "life"]
+      "forbiddenWords": ["Reason", "Logic", "Evidence", "Community"]
     },
     {
       "word": "Roko's Basilisk",
       "forbiddenWords": ["thought experiment", "AI", "future", "punishment"]
     },
-    {
-        "word": "Occam's Razor",
-        "forbiddenWords": ["simplicity", "hypothesis", "principle", "assumptions"]
-    },
+
     {
         "word": "Simulation Hypothesis",
         "forbiddenWords": ["virtual", "reality", "computer", "universe"]
     },
     {
-        "word": "Black Swan",
-        "forbiddenWords": ["Taleb", "unexpected", "event", "impact"]
-    },
-    {
-        "word": "Dunbar's Number",
-        "forbiddenWords": ["social", "relationships", "limit", "cognitive"]
-    },
-    {
-        "word": "Great Filter",
-        "forbiddenWords": ["Fermi Paradox", "extinction", "barrier", "civilizations"]
-    },
-    {
         "word": "Meditation",
         "forbiddenWords": ["mindfulness", "focus", "practice", "breathing"]
     },
-    {
-        "word": "Gödel's Incompleteness",
-        "forbiddenWords": ["theorem", "mathematics", "logic", "provable"]
-    },
+
     {
         "word": "Turing Test",
-        "forbiddenWords": ["AI", "artificial", "intelligence", "human-like"]
+        "forbiddenWords": ["AI", "Artificial", "Intelligence", "Human-like"]
     },
     {
         "word": "Quantum Mechanics",
-        "forbiddenWords": ["physics", "particles", "superposition", "wave function"]
+        "forbiddenWords": ["Physics", "Superposition", "Wave function"]
     },
     {
-        "word": "Coherent Extrapolated Volition",
-        "forbiddenWords": ["Yudkowsky", "AI", "future", "human values"]
+      "word": "Roko's Basilisk",
+      "forbiddenWords": ["Thought experiment", "AI", "Blackmail", "Future", "Cooperation"]
+    },
+    {
+      "word": "Instrumental",
+      "forbiddenWords": ["Goal", "Means", "Ends", "Purpose", "Value"]
+    },
+    {
+      "word": "Simulation Hypothesis",
+      "forbiddenWords": ["Virtual reality", "Matrix", "Universe", "Nick Bostrom", "Technology"]
+    },
+    {
+      "word": "Pareto Principle",
+      "forbiddenWords": ["80/20 rule", "Efficiency", "Distribution", "Economics", "Productivity"]
+    },
+    {
+      "word": "Yudkowsky",
+      "forbiddenWords": ["Eliezer", "Bias", "LessWrong", "AI", "Sequences"]
     }
+
     ]
       
   
