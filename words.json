@@ -128,6 +128,7 @@
     "forbiddenWords": [
       "Fermi Paradox",
       "Extinction",
+      "Life",
       "Civilizations"
     ]
   },
@@ -214,14 +215,14 @@
       "AI",
       "Blackmail",
       "Future",
-      "Cooperation",
       "Punish"
     ]
   },
   {
     "word": "Scott Alexander",
     "forbiddenWords": [
-      "SSC/ACX",
+      "Slate Star Codex",
+      "Astral Codex Ten",
       "Blogger",
       "Psychiatrist"
     ]
