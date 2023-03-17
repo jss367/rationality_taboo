@@ -132,6 +132,14 @@
     ]
   },
   {
+    "word": "LessWrong",
+    "forbiddenWords": [
+      "Blog",
+      "Website",
+      "Post"
+    ]
+  },
+  {
     "word": "Meditation",
     "forbiddenWords": [
       "Mindfulness",
