@@ -1,41 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rationality Taboo</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rationality Taboo</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <div id="game-container">
-    <h1 id="game-title">Rationality Taboo</h1>
-    <div id="word-container">
-      <h1 id="word"></h1>
+    <h1>Rationality Taboo</h1>
+    <div class="word-display">
+        <span id="word"></span>
+        <ul id="forbidden-words"></ul>
     </div>
-    <div id="forbidden-words-container">
-      <h2>Forbidden Words:</h2>
-      <ul id="forbidden-words"></ul>
+    <div class="controls">
+        <button id="done">Next</button>
+        <button id="skip-word">Skip Word</button>
+        <button id="switch-team">Switch Team</button>
     </div>
-    <button id="next">Next</button>
-    <button id="skip-word">Skip word</button>
-    <button id="switch-team">Switch team</button>
-    <h3>Team 1 Score: <span id="team1-score">0</span></h3>
-    <h3>Team 2 Score: <span id="team2-score">0</span></h3>
-    <div id="timer-container">
-      <h3>Time remaining: <span id="time-remaining">60</span> seconds</h3>
+    <div class="score-display">
+        <span>Team 1: <span id="team1-score">0</span></span>
+        <span style="margin-left: 20px;">Team 2: <span id="team2-score">0</span></span>
+        <span style="margin-left: 20px;">Time: <span id="time-remaining">60</span>s</span>
     </div>
-    <button id="settings-button">Settings</button>
-    <div id="settings-modal" class="modal">
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <h3>Settings</h3>
-        <label for="timer">Timer duration (seconds):</label>
-        <input type="number" id="timer" min="10" max="300" step="1" value="60">
-        <label for="skip-penalty">Deduct point for skipping a word:</label>
-        <input type="checkbox" id="skip-penalty" checked>
-      </div>
+    <div class="settings" id="settings-button">&#9881;</div>
+    <div id="settings-modal" class="settings-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Settings</h2>
+            <label for="timer">Timer (seconds):</label>
+            <input type="number" id="timer" value="60" min="1" max="300">
+            <br>
+            <label for="skip-penalty">Deduct a point when skipping a word:</label>
+            <input type="checkbox" id="skip-penalty">
+        </div>
     </div>
-  </div>
-  <script src="scripts.js"></script>
+    <script src="scripts.js"></script>
 </body>
+
 </html>

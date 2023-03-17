@@ -24,7 +24,14 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function updateWord() {
-    const wordData = words[Math.floor(Math.random() * words.length)];
+    if (words.length === 0) {
+      gameOver();
+      return;
+    }
+    const index = Math.floor(Math.random() * words.length);
+    const wordData = words[index];
+    words.splice(index, 1);
+
     wordElement.textContent = wordData.word;
     forbiddenWordsElement.innerHTML = "";
     wordData.forbiddenWords.forEach((forbiddenWord) => {
@@ -65,11 +72,15 @@ document.addEventListener("DOMContentLoaded", () => {
       timerElement.textContent = timeRemaining;
       if (timeRemaining <= 0) {
         clearInterval(timer);
-        switchTeam();
-        timeRemaining = parseInt(timerInput.value, 10);
-        startTimer();
+        const audio = new Audio('beep.mp3');
+        audio.play();
       }
     }, 1000);
+  }
+
+  function gameOver() {
+    clearInterval(timer);
+    alert(`Game over!\nTeam 1 score: ${team1Score}\nTeam 2 score: ${team2Score}`);
   }
 
   let words = [];
@@ -79,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
     startTimer();
   });
 
-  document.getElementById("next").addEventListener("click", () => {
+  document.getElementById("done").addEventListener("click", () => {
     updateScore();
     updateWord();
   });
