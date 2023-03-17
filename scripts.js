@@ -1,66 +1,38 @@
-const wordElement = document.getElementById('word-to-guess');
-const forbiddenWordsElement = document.getElementById('forbidden-words');
-const gotItButton = document.getElementById('got-it');
-const skipWordButton = document.getElementById('skip-word');
-const switchPlayerButton = document.getElementById('switch-player');
-const currentTeamElement = document.getElementById('current-team');
-const team1ScoreElement = document.getElementById('team-1-score');
-const team2ScoreElement = document.getElementById('team-2-score');
-const settingsButton = document.getElementById('settings-button');
-const closeSettingsButton = document.getElementById('close-settings');
-const settingsMenu = document.getElementById('settings-menu');
-const roundDurationInput = document.getElementById('round-duration');
-const skipPenaltyCheckbox = document.getElementById('skip-penalty');
+const wordElement = document.getElementById("word");
+const forbiddenWordsElement = document.getElementById("forbidden-words");
+const team1ScoreElement = document.getElementById("team1-score");
+const team2ScoreElement = document.getElementById("team2-score");
+const timerElement = document.getElementById("time-remaining");
+const settingsButton = document.getElementById("settings-button");
+const settingsModal = document.getElementById("settings-modal");
+const closeModal = document.querySelector(".close");
+const timerInput = document.getElementById("timer");
+const skipPenaltyInput = document.getElementById("skip-penalty");
 
-let words = [];
-let currentWordIndex = -1;
-let currentTeam = 1;
 let team1Score = 0;
 let team2Score = 0;
-let defaultTime = 30;
-let timeRemaining = defaultTime;
-let timerInterval;
+let currentTeam = 1;
+let timeRemaining = parseInt(timerElement.textContent, 10);
+let timer;
 
-fetch('words.json')
-  .then((response) => response.json())
-  .then((data) => {
-    words = data;
-    updateWord();
-  });
+async function fetchWords() {
+  const response = await fetch("words.json");
+  const wordsData = await response.json();
+  return wordsData;
+}
 
 function updateWord() {
-  currentWordIndex++;
-  if (currentWordIndex >= words.length) {
-    currentWordIndex = 0;
-  }
-  const word = words[currentWordIndex];
-  wordElement.textContent = word.word;
-  forbiddenWordsElement.innerHTML = '';
-  word.forbiddenWords.forEach((forbiddenWord) => {
-    const li = document.createElement('li');
-    li.textContent = forbiddenWord;
-    forbiddenWordsElement.appendChild(li);
+  const wordData = words[Math.floor(Math.random() * words.length)];
+  wordElement.textContent = wordData.word;
+  forbiddenWordsElement.innerHTML = "";
+  wordData.forbidden.forEach((forbiddenWord) => {
+    const listItem = document.createElement("li");
+    listItem.textContent = forbiddenWord;
+    forbiddenWordsElement.appendChild(listItem);
   });
-  startTimer();
 }
 
-function startTimer() {
-  clearInterval(timerInterval);
-  timeRemaining = defaultTime;
-  timeRemainingElement.textContent = timeRemaining;
-
-  timerInterval = setInterval(() => {
-    timeRemaining--;
-    timeRemainingElement.textContent = timeRemaining;
-
-    if (timeRemaining <= 0) {
-      clearInterval(timerInterval);
-      // Optionally, add any actions you want to perform when the timer runs out
-    }
-  }, 1000);
-}
-
-gotItButton.addEventListener('click', () => {
+function updateScore() {
   if (currentTeam === 1) {
     team1Score++;
     team1ScoreElement.textContent = team1Score;
@@ -68,33 +40,72 @@ gotItButton.addEventListener('click', () => {
     team2Score++;
     team2ScoreElement.textContent = team2Score;
   }
+}
+
+function deductScore() {
+  if (currentTeam === 1) {
+    team1Score--;
+    team1ScoreElement.textContent = team1Score;
+  } else {
+    team2Score--;
+    team2ScoreElement.textContent = team2Score;
+  }
+}
+
+function switchPlayer() {
+  currentTeam = currentTeam === 1 ? 2 : 1;
+}
+
+function startTimer() {
+  timerElement.textContent = timeRemaining;
+  timer = setInterval(() => {
+    timeRemaining--;
+    timerElement.textContent = timeRemaining;
+    if (timeRemaining <= 0) {
+      clearInterval(timer);
+      switchPlayer();
+      timeRemaining = parseInt(timerInput.value, 10);
+      startTimer();
+    }
+  }, 1000);
+}
+
+let words = [];
+fetchWords().then((data) => {
+  words = data;
+  updateWord();
+  startTimer();
+});
+
+document.getElementById("done").addEventListener("click", () => {
+  updateScore();
   updateWord();
 });
 
-skipWordButton.addEventListener('click', () => {
-  if (skipPenaltyCheckbox.checked) {
-    if (currentTeam === 1) {
-      team1Score--;
-      team1ScoreElement.textContent = team1Score;
-    } else {
-      team2Score--;
-      team2ScoreElement.textContent = team2Score;
-    }
+document.getElementById("skip-word").addEventListener("click", () => {
+  if (skipPenaltyInput.checked) {
+    deductScore();
   }
   updateWord();
 });
 
-switchPlayerButton.addEventListener('click', () => {
-  currentTeam = currentTeam === 1 ? 2 : 1;
-  currentTeamElement.textContent = currentTeam;
+document.getElementById("switch-player").addEventListener("click", () => {
+  clearInterval(timer);
+  switchPlayer();
+  timeRemaining = parseInt(timerInput.value, 10);
   startTimer();
 });
 
-settingsButton.addEventListener('click', () => {
-  settingsMenu.style.display = 'block';
+settingsButton.addEventListener("click", () => {
+  settingsModal.style.display = "block";
 });
 
-closeSettingsButton.addEventListener('click', () => {
-  settingsMenu.style.display = 'none';
-  defaultTime = parseInt(roundDurationInput.value, 10);
+closeModal.addEventListener("click", () => {
+  settingsModal.style.display = "none";
+});
+
+window.addEventListener("click", (event) => {
+  if (event.target === settingsModal) {
+    settingsModal.style.display = "none";
+  }
 });
