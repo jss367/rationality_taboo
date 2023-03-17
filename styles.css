@@ -1,15 +1,55 @@
-body {
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #f0f0f0;
-}
-
-.game-container {
-    max-width: 600px;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    color: #444;
+  }
+  
+  .container {
+    max-width: 800px;
     margin: 0 auto;
-}
-
-button {
+    padding: 1rem;
+  }
+  
+  .game-container {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+  
+  .word-to-guess {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  #forbidden-words {
+    font-size: 1.2rem;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  button {
     background-color: #4CAF50;
     border: none;
     color: white;
@@ -20,4 +60,13 @@ button {
     font-size: 16px;
     margin: 10px 2px;
     cursor: pointer;
-}
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s, box-shadow 0.2s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  }
+  
