@@ -13,10 +13,7 @@ const settingsMenu = document.getElementById('settings-menu');
 const roundDurationInput = document.getElementById('round-duration');
 const skipPenaltyCheckbox = document.getElementById('skip-penalty');
 
-const words = [
-  // ... (your words and forbidden words here)
-];
-
+let words = [];
 let currentWordIndex = -1;
 let currentTeam = 1;
 let team1Score = 0;
@@ -24,6 +21,13 @@ let team2Score = 0;
 let defaultTime = 30;
 let timeRemaining = defaultTime;
 let timerInterval;
+
+fetch('words.json')
+  .then((response) => response.json())
+  .then((data) => {
+    words = data;
+    updateWord();
+  });
 
 function updateWord() {
   currentWordIndex++;
@@ -97,5 +101,3 @@ closeSettingsButton.addEventListener('click', () => {
   settingsMenu.style.display = 'none';
   defaultTime = parseInt(roundDurationInput.value, 10);
 });
-
-updateWord();
