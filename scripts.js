@@ -1,51 +1,46 @@
+const wordElement = document.getElementById('word-to-guess');
+const forbiddenWordsElement = document.getElementById('forbidden-words');
+const nextButton = document.getElementById('next-word');
+const gotItButton = document.getElementById('got-it');
+const skipWordButton = document.getElementById('skip-word');
+const switchPlayerButton = document.getElementById('switch-player');
+const currentTeamElement = document.getElementById('current-team');
+const team1ScoreElement = document.getElementById('team-1-score');
+const team2ScoreElement = document.getElementById('team-2-score');
+const settingsButton = document.getElementById('settings-button');
+const closeSettingsButton = document.getElementById('close-settings');
+const settingsMenu = document.getElementById('settings-menu');
+const roundDurationInput = document.getElementById('round-duration');
+const skipPenaltyCheckbox = document.getElementById('skip-penalty');
 
-const timerElement = document.getElementById('timer');
-const timeRemainingElement = document.getElementById('time-remaining');
-const defaultTime = 30; // Change this value to adjust the round duration (in seconds)
+const words = [
+  // ... (your words and forbidden words here)
+];
 
+let currentWordIndex = -1;
+let currentTeam = 1;
+let team1Score = 0;
+let team2Score = 0;
+let defaultTime = 30;
 let timeRemaining = defaultTime;
 let timerInterval;
 
-
-let words = [];
-
-const wordElement = document.getElementById('word');
-const forbiddenWordsElement = document.getElementById('forbidden-words');
-const nextWordButton = document.getElementById('next-word');
-
-function generateRandomIndex(max) {
-  return Math.floor(Math.random() * max);
-}
-
 function updateWord() {
-  startTimer();
-  const randomIndex = generateRandomIndex(words.length);
-  const wordObject = words[randomIndex];
-
-  wordElement.textContent = wordObject.word;
-
+  currentWordIndex++;
+  if (currentWordIndex >= words.length) {
+    currentWordIndex = 0;
+  }
+  const word = words[currentWordIndex];
+  wordElement.textContent = word.word;
   forbiddenWordsElement.innerHTML = '';
-  wordObject.forbiddenWords.forEach(forbiddenWord => {
-    const listItem = document.createElement('li');
-    listItem.textContent = forbiddenWord;
-    forbiddenWordsElement.appendChild(listItem);
+  word.forbiddenWords.forEach((forbiddenWord) => {
+    const li = document.createElement('li');
+    li.textContent = forbiddenWord;
+    forbiddenWordsElement.appendChild(li);
   });
+  startTimer();
 }
 
-nextWordButton.addEventListener('click', updateWord);
-
-// Fetch the words data from words.json and initialize the game
-fetch('words.json')
-  .then(response => response.json())
-  .then(data => {
-    words = data;
-    updateWord();
-  })
-  .catch(error => {
-    console.error('Error fetching words data:', error);
-  });
-
-// Add this new function to handle the timer countdown
 function startTimer() {
   clearInterval(timerInterval);
   timeRemaining = defaultTime;
@@ -62,3 +57,45 @@ function startTimer() {
   }, 1000);
 }
 
+nextButton.addEventListener('click', updateWord);
+
+gotItButton.addEventListener('click', () => {
+  if (currentTeam === 1) {
+    team1Score++;
+    team1ScoreElement.textContent = team1Score;
+  } else {
+    team2Score++;
+    team2ScoreElement.textContent = team2Score;
+  }
+  updateWord();
+});
+
+skipWordButton.addEventListener('click', () => {
+  if (skipPenaltyCheckbox.checked) {
+    if (currentTeam === 1) {
+      team1Score--;
+      team1ScoreElement.textContent = team1Score;
+    } else {
+      team2Score--;
+      team2ScoreElement.textContent = team2Score;
+    }
+  }
+  updateWord();
+});
+
+switchPlayerButton.addEventListener('click', () => {
+  currentTeam = currentTeam === 1 ? 2 : 1;
+  currentTeamElement.textContent = currentTeam;
+  startTimer();
+});
+
+settingsButton.addEventListener('click', () => {
+  settingsMenu.style.display = 'block';
+});
+
+closeSettingsButton.addEventListener('click', () => {
+  settingsMenu.style.display = 'none';
+  defaultTime = parseInt(roundDurationInput.value, 10);
+});
+
+updateWord();

@@ -8,14 +8,36 @@
 </head>
 <body>
     <h1>Rationalist Taboo</h1>
+    <button id="settings-button" style="float: right;">Settings</button>
+    <div id="settings-menu" style="display: none;">
+    <h2>Settings</h2>
+    <p>
+        Round duration:
+        <input type="number" id="round-duration" min="1" value="30" /> seconds
+    </p>
+    <p>
+        <label for="skip-penalty">
+        <input type="checkbox" id="skip-penalty" checked />
+        Deduct a point for skipping a word
+        </label>
+    </p>
+    <button id="close-settings">Close</button>
+    </div>
+
     <div class="game-container">
         <p id="timer">Time Remaining: <span id="time-remaining">30</span> seconds</p>
         <p class="word-to-guess">Word: <span id="word"></span></p>
         <p>Forbidden words:</p>
         <ul id="forbidden-words"></ul>
+        <button id="got-it">Got it</button>
+        <button id="skip-word">Skip word</button>
+        <button id="switch-player" style="float: right;">Switch player</button>
+        <p>Current team: <span id="current-team">1</span></p>
+        <p>Team 1 Score: <span id="team-1-score">0</span></p>
+        <p>Team 2 Score: <span id="team-2-score">0</span></p>
+
         <button id="next-word">Next Word</button>
     </div>
     <script src="scripts.js"></script>
 </body>
 </html>
-
