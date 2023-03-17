@@ -1,0 +1,43 @@
+[
+    {
+      "word": "Bayesian",
+      "forbiddenWords": ["probability", "statistics", "inference", "priors"]
+    },
+    {
+      "word": "Effective Altruism",
+      "forbiddenWords": ["charity", "impact", "philanthropy", "cause"]
+    },
+    {
+      "word": "Cryonics",
+      "forbiddenWords": ["preservation", "freezing", "death", "future"]
+    },
+    {
+      "word": "Superintelligence",
+      "forbiddenWords": ["AI", "artificial", "smart", "Singularity"]
+    },
+    {
+      "word": "Utilitarianism",
+      "forbiddenWords": ["ethics", "happiness", "morality", "consequentialism"]
+    },
+    {
+      "word": "Moloch",
+      "forbiddenWords": ["coordination", "failure", "incentives", "demon"]
+    },
+    {
+      "word": "Rationalist",
+      "forbiddenWords": ["reason", "logic", "evidence", "community"]
+    },
+    {
+      "word": "Yudkowsky",
+      "forbiddenWords": ["Eliezer", "LessWrong", "AI", "sequences"]
+    },
+    {
+      "word": "Fermi Paradox",
+      "forbiddenWords": ["aliens", "extraterrestrial", "universe", "life"]
+    },
+    {
+      "word": "Roko's Basilisk",
+      "forbiddenWords": ["thought experiment", "AI", "future", "punishment"]
+    }
+  ]
+  
