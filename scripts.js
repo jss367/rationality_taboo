@@ -1,6 +1,5 @@
 const wordElement = document.getElementById('word-to-guess');
 const forbiddenWordsElement = document.getElementById('forbidden-words');
-const nextButton = document.getElementById('next-word');
 const gotItButton = document.getElementById('got-it');
 const skipWordButton = document.getElementById('skip-word');
 const switchPlayerButton = document.getElementById('switch-player');
@@ -60,8 +59,6 @@ function startTimer() {
     }
   }, 1000);
 }
-
-nextButton.addEventListener('click', updateWord);
 
 gotItButton.addEventListener('click', () => {
   if (currentTeam === 1) {
