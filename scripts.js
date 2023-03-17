@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const wordData = words[Math.floor(Math.random() * words.length)];
     wordElement.textContent = wordData.word;
     forbiddenWordsElement.innerHTML = "";
-    wordData.forbidden.forEach((forbiddenWord) => {
+    wordData.forbiddenWords.forEach((forbiddenWord) => {
       const listItem = document.createElement("li");
       listItem.textContent = forbiddenWord;
       forbiddenWordsElement.appendChild(listItem);
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  function switchPlayer() {
+  function switchTeam() {
     currentTeam = currentTeam === 1 ? 2 : 1;
   }
 
@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
       timerElement.textContent = timeRemaining;
       if (timeRemaining <= 0) {
         clearInterval(timer);
-        switchPlayer();
+        switchTeam();
         timeRemaining = parseInt(timerInput.value, 10);
         startTimer();
       }
@@ -91,9 +91,9 @@ document.addEventListener("DOMContentLoaded", () => {
     updateWord();
   });
 
-  document.getElementById("switch-player").addEventListener("click", () => {
+  document.getElementById("switch-team").addEventListener("click", () => {
     clearInterval(timer);
-    switchPlayer();
+    switchTeam();
     timeRemaining = parseInt(timerInput.value, 10);
     startTimer();
   });
