@@ -1,17 +1,21 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  align-items: flex-start;
+  height: 100vh;
   margin: 0;
-  padding: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
 }
 
 h1 {
   margin: 20px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 
 #word {
@@ -81,13 +85,18 @@ button:hover {
   background-color: #da190b;
 }
 
+#switch-team {
+  background-color: #1e90ff;
+}
+
+
 #done {
   font-size: 24px;
   padding: 12px 24px;
 }
 
 #settings-button {
-  background-color: #007bff;
+  background-color: transparent;
 }
 
 #settings-button:hover {
@@ -95,7 +104,7 @@ button:hover {
 }
 
 #settings-modal {
-  display: none;
+  display: none; /* This will be changed to 'flex' when the settings button is clicked */
   position: fixed;
   z-index: 1;
   left: 0;
@@ -104,6 +113,14 @@ button:hover {
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  box-sizing: border-box;
+
+  /* Flexbox settings */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #settings-content {
@@ -113,6 +130,10 @@ button:hover {
   border: 1px solid #888;
   width: 80%;
   max-width: 300px;
+}
+
+.sound-checkbox {
+  display: block;
 }
 
 .close {
