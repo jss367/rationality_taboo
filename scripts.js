@@ -1,3 +1,9 @@
+async function fetchVersion() {
+  const response = await fetch('version.json');
+  const versionData = await response.json();
+  return versionData.version;
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const wordElement = document.getElementById("word");
   const forbiddenWordsElement = document.getElementById("forbidden-words");
@@ -129,5 +135,11 @@ document.addEventListener("DOMContentLoaded", () => {
     if (event.target === settingsModal) {
       settingsModal.style.display = "none";
     }
+  });
+
+  // Fetch and display the version number
+  fetchVersion().then((version) => {
+    const versionElement = document.getElementById('version');
+    versionElement.textContent = `Version ${version}`;
   });
 });
