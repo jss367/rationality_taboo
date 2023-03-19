@@ -11,6 +11,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const timerInput = document.getElementById("timer");
   const skipPenaltyInput = document.getElementById("skip-penalty");
 
+  const soundInput = document.getElementById("sound");
+  const beep = new Audio("beep.mp3");
+
   let team1Score = 0;
   let team2Score = 0;
   let currentTeam = 1;
@@ -65,6 +68,12 @@ document.addEventListener("DOMContentLoaded", () => {
     currentTeam = currentTeam === 1 ? 2 : 1;
   }
 
+  function playBeep() {
+    if (soundInput.checked) {
+      beep.play();
+    }
+  }
+
   function startTimer() {
     timerElement.textContent = timeRemaining;
     timer = setInterval(() => {
@@ -72,8 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
       timerElement.textContent = timeRemaining;
       if (timeRemaining <= 0) {
         clearInterval(timer);
-        const audio = new Audio('beep.mp3');
-        audio.play();
+        playBeep();
       }
     }, 1000);
   }
