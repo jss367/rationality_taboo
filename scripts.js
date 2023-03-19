@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
     startTimer();
   });
 
-  document.getElementById("done").addEventListener("click", () => {
+  document.getElementById("next").addEventListener("click", () => {
     updateScore();
     updateWord();
   });
