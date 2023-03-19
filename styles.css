@@ -65,14 +65,14 @@ button {
 }
 
 #next {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   background-color: #4caf50;
   margin: 20px 0;
 }
 
 #skip-word,
 #switch-team {
-  width: 150px;
+  width: 200px;
 }
 
 #skip-word {
