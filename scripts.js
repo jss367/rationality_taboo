@@ -38,7 +38,10 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    const wordData = words[Math.floor(Math.random() * words.length)];
+    const randomIndex = Math.floor(Math.random() * words.length);
+    const wordData = words[randomIndex];
+    words.splice(randomIndex, 1); // Remove the used word from the array
+
     wordElement.innerHTML = ""; // Clear the existing content
     wordData.word.split(" ").forEach((wordPart) => {
       const span = document.createElement("span");
