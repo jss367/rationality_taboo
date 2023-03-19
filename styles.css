@@ -71,6 +71,11 @@ button {
   margin: 20px 0;
 }
 
+#skip-word,
+#switch-team {
+  width: 150px;
+}
+
 #skip-word {
   background-color: #e74c3c;
   color: white;
