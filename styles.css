@@ -32,6 +32,9 @@ ul {
   font-size: 3rem;
   font-weight: bold;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   margin-bottom: 20px; /* Add space between the main word and taboo words */
 }
 
@@ -59,11 +62,6 @@ button {
   background-color: #4caf50;
   margin: 20px 0;
 }
-
-/* #skip-word,
-#switch-team {
-  width: 200px;
-} */
 
 #skip-word {
   background-color: #e74c3c;

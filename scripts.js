@@ -37,11 +37,15 @@ document.addEventListener("DOMContentLoaded", () => {
       gameOver();
       return;
     }
-    const index = Math.floor(Math.random() * words.length);
-    const wordData = words[index];
-    words.splice(index, 1);
 
-    wordElement.textContent = wordData.word;
+    const wordData = words[Math.floor(Math.random() * words.length)];
+    wordElement.innerHTML = ""; // Clear the existing content
+    wordData.word.split(" ").forEach((wordPart) => {
+      const span = document.createElement("span");
+      span.textContent = wordPart;
+      span.style.margin = "0 5px";
+      wordElement.appendChild(span);
+    });
     forbiddenWordsElement.innerHTML = "";
     wordData.forbiddenWords.forEach((forbiddenWord) => {
       const listItem = document.createElement("li");
