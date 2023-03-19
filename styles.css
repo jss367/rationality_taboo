@@ -99,10 +99,6 @@ button:hover {
   background-color: transparent;
 }
 
-#settings-button:hover {
-  background-color: #0069d9;
-}
-
 #settings-modal {
   display: none; /* This will be changed to 'flex' when the settings button is clicked */
   position: fixed;
