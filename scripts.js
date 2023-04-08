@@ -27,10 +27,17 @@ document.addEventListener("DOMContentLoaded", () => {
   let timer;
 
   async function fetchWords() {
-    const response = await fetch("words.json");
-    const wordsData = await response.json();
-    return wordsData;
+    const response1 = fetch("words.json");
+    const response2 = fetch("words2.json");
+  
+    const [wordsData1, wordsData2] = await Promise.all([
+      response1.then((res) => res.json()),
+      response2.then((res) => res.json()),
+    ]);
+  
+    return wordsData1.concat(wordsData2);
   }
+  
 
   function updateWord() {
     if (words.length === 0) {
