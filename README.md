@@ -4,11 +4,9 @@
 
 Add phrases from sequences, e.g. Making Beliefs Pay Rent
 
-Add some commentary - suggest people don'e worry about exact wording - "make beliefs pay rent" is fine too
+Add some commentary - suggest people don't worry about exact wording - "make beliefs pay rent" is fine too
 
 Provide info for people who want to add choices
-
-Add more content - get csv from sky
 
 Allow people to "join a game" like jackbox games - 4 letter code or something.
 
