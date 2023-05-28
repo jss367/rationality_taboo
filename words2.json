@@ -179,7 +179,7 @@
     ]
   },
   {
-    "word": "Asche'S Conformity Experiment",
+    "word": "Asche's Conformity Experiment",
     "forbiddenWords": [
       "Group",
       "Think",
@@ -395,7 +395,7 @@
     ]
   },
   {
-    "word": "Chesterton'S Fence",
+    "word": "Chesterton's Fence",
     "forbiddenWords": [
       "Same",
       "Leave",
@@ -555,7 +555,7 @@
     ]
   },
   {
-    "word": "Crocker'S Rules",
+    "word": "Crocker's Rules",
     "forbiddenWords": [
       "Information",
       "Rude",
@@ -725,7 +725,7 @@
     ]
   },
   {
-    "word": "Dunbar'S Number",
+    "word": "Dunbar's Number",
     "forbiddenWords": [
       "Community",
       "150",
@@ -1024,7 +1024,7 @@
     ]
   },
   {
-    "word": "Godwin'S Law",
+    "word": "Godwin's Law",
     "forbiddenWords": [
       "Nazi",
       "Online",
@@ -1034,7 +1034,7 @@
     ]
   },
   {
-    "word": "Goodhart'S Law",
+    "word": "Goodhart's Law",
     "forbiddenWords": [
       "Optimize",
       "Measure",
@@ -1084,7 +1084,7 @@
     ]
   },
   {
-    "word": "Hanlon'S Razor",
+    "word": "Hanlon's Razor",
     "forbiddenWords": [
       "Stupidity",
       "Malice",
@@ -1604,7 +1604,7 @@
     ]
   },
   {
-    "word": "Moore'S Law",
+    "word": "Moore's Law",
     "forbiddenWords": [
       "Science",
       "Transistor",
@@ -1664,7 +1664,7 @@
     ]
   },
   {
-    "word": "Newcomb'S Paradox",
+    "word": "Newcomb's Paradox",
     "forbiddenWords": [
       "Box",
       "One",
@@ -1764,7 +1764,7 @@
     ]
   },
   {
-    "word": "Pascal'S Mugging",
+    "word": "Pascal's Mugging",
     "forbiddenWords": [
       "God",
       "Bet",
@@ -1904,7 +1904,7 @@
     ]
   },
   {
-    "word": "Prisoner'S Dilemma",
+    "word": "Prisoner's Dilemma",
     "forbiddenWords": [
       "Defect",
       "Cooperate",
@@ -2235,7 +2235,7 @@
     ]
   },
   {
-    "word": "Sturgeon'S Law",
+    "word": "Sturgeon's Law",
     "forbiddenWords": [
       "Crap",
       "Scifi",
@@ -2535,7 +2535,7 @@
     ]
   },
   {
-    "word": "Zeno'S Paradox",
+    "word": "Zeno's Paradox",
     "forbiddenWords": [
       "Arrow",
       "Calculus",
