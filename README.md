@@ -13,8 +13,7 @@ Provide info for people who want to add choices
 Allow people to "join a game" like jackbox games - 4 letter code or something.
 
 Multiple screens - clue giver, censor, "not your turn yet" - should that page list that order that people will be in?
-* i think the censor should be the person who went last.
 
-* separate clues by difficulty? e.g. coherent extrapolated volution is hard mode?
+- i think the censor should be the person who went last.
 
-add buzz feature
+- separate clues by difficulty? e.g. coherent extrapolated volution is hard mode?

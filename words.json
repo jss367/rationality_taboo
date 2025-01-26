@@ -11,21 +11,11 @@
   },
   {
     "word": "Black Swan",
-    "forbiddenWords": [
-      "Taleb",
-      "Unexpected",
-      "Event",
-      "Impact"
-    ]
+    "forbiddenWords": ["Taleb", "Unexpected", "Event", "Impact"]
   },
   {
     "word": "Coherent Extrapolated Volition",
-    "forbiddenWords": [
-      "Yudkowsky",
-      "AI",
-      "future",
-      "human values"
-    ]
+    "forbiddenWords": ["Yudkowsky", "AI", "future", "human values"]
   },
   {
     "word": "Cryonics",
@@ -49,13 +39,7 @@
   },
   {
     "word": "Decision Theory",
-    "forbiddenWords": [
-      "Choices",
-      "Rational",
-      "Outcome",
-      "Payoff",
-      "Preference"
-    ]
+    "forbiddenWords": ["Choices", "Rational", "Outcome", "Payoff", "Preference"]
   },
   {
     "word": "Effective Altruism",
@@ -89,67 +73,31 @@
   },
   {
     "word": "Fermi Paradox",
-    "forbiddenWords": [
-      "Aliens",
-      "Extraterrestrial",
-      "Universe",
-      "Life"
-    ]
+    "forbiddenWords": ["Aliens", "Extraterrestrial", "Universe", "Life"]
   },
   {
     "word": "Gödel's Incompleteness",
-    "forbiddenWords": [
-      "Theorem",
-      "Mathematics",
-      "Logic",
-      "Provable"
-    ]
+    "forbiddenWords": ["Theorem", "Mathematics", "Logic", "Provable"]
   },
   {
     "word": "Grabby Aliens",
-    "forbiddenWords": [
-      "Robin Hanson",
-      "Extraterrestrial",
-      "Galaxy",
-      "UFO"
-    ]
+    "forbiddenWords": ["Robin Hanson", "Extraterrestrial", "Galaxy", "UFO"]
   },
   {
     "word": "Great Filter",
-    "forbiddenWords": [
-      "Fermi Paradox",
-      "Extinction",
-      "Life",
-      "Civilizations"
-    ]
+    "forbiddenWords": ["Fermi Paradox", "Extinction", "Life", "Civilizations"]
   },
   {
     "word": "Instrumental",
-    "forbiddenWords": [
-      "Goal",
-      "Means",
-      "Ends",
-      "Purpose",
-      "Value"
-    ]
+    "forbiddenWords": ["Goal", "Means", "Ends", "Purpose", "Value"]
   },
   {
     "word": "LessWrong",
-    "forbiddenWords": [
-      "Blog",
-      "Website",
-      "Post",
-      "Site"
-    ]
+    "forbiddenWords": ["Blog", "Website", "Post", "Site"]
   },
   {
     "word": "Meditation",
-    "forbiddenWords": [
-      "Mindfulness",
-      "Focus",
-      "Practice",
-      "Breathing"
-    ]
+    "forbiddenWords": ["Mindfulness", "Focus", "Practice", "Breathing"]
   },
   {
     "word": "Moloch",
@@ -192,12 +140,7 @@
   },
   {
     "word": "Rationalist",
-    "forbiddenWords": [
-      "Reason",
-      "Logic",
-      "Evidence",
-      "Community"
-    ]
+    "forbiddenWords": ["Reason", "Logic", "Evidence", "Community"]
   },
   {
     "word": "Roko's Basilisk",
@@ -240,21 +183,11 @@
   },
   {
     "word": "Superintelligence",
-    "forbiddenWords": [
-      "AI",
-      "Machines",
-      "Singularity",
-      "Nick Bostrom"
-    ]
+    "forbiddenWords": ["AI", "Machines", "Singularity", "Nick Bostrom"]
   },
   {
     "word": "Turing Test",
-    "forbiddenWords": [
-      "AI",
-      "Human",
-      "Intelligence",
-      "Conversation"
-    ]
+    "forbiddenWords": ["AI", "Human", "Intelligence", "Conversation"]
   },
   {
     "word": "Utilitarianism",
@@ -268,12 +201,6 @@
   },
   {
     "word": "Yudkowsky",
-    "forbiddenWords": [
-      "Eliezer",
-      "Bias",
-      "LessWrong",
-      "AI",
-      "Sequences"
-    ]
+    "forbiddenWords": ["Eliezer", "Bias", "LessWrong", "AI", "Sequences"]
   }
 ]
