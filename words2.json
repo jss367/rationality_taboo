@@ -1,17 +1,11 @@
 [
   {
     "word": "Ad Hominem",
-    "forbiddenWords": [
-      "Insult",
-      "Attack",
-      "Character",
-      "Assassination",
-      "Latin"
-    ]
+    "forbiddenWords": ["Insult", "Attack", "Character", "Personal", "Latin"]
   },
   {
     "word": "Adverse Selection",
-    "forbiddenWords": ["Bad", "Choice", "Against", "Survive", "Filter"]
+    "forbiddenWords": ["Information", "Choice", "Against", "Survive", "Filter"]
   },
   {
     "word": "Akrasia",
@@ -27,7 +21,7 @@
   },
   {
     "word": "Alien",
-    "forbiddenWords": ["Stranger", "World", "Space", "Green", "Bug"]
+    "forbiddenWords": ["Extraterrestial", "World", "Space", "Green", "Bug"]
   },
   {
     "word": "Alignment",
@@ -55,7 +49,7 @@
   },
   {
     "word": "Anarchy",
-    "forbiddenWords": ["Free", "Law", "Individual", "Open", "Choice"]
+    "forbiddenWords": ["Free", "Law", "Individual", "Government", "Choice"]
   },
   {
     "word": "Anki",
@@ -169,7 +163,7 @@
   },
   {
     "word": "Change",
-    "forbiddenWords": ["Improve", "Different", "Constant", "Different", "Spare"]
+    "forbiddenWords": ["Improve", "Different", "Constant", "Obama", "Spare"]
   },
   {
     "word": "Chesterton's Fence",
@@ -213,7 +207,7 @@
   },
   {
     "word": "Conjunction",
-    "forbiddenWords": ["And", "Or", "Together", "Both", "Star"]
+    "forbiddenWords": ["Words", "Combine", "Together", "Both", "Star"]
   },
   {
     "word": "Consequentialism",
@@ -396,16 +390,8 @@
     "forbiddenWords": ["Iq", "Grow", "Time", "History", "Smart"]
   },
   {
-    "word": "Fnording",
-    "forbiddenWords": ["Subconcious", "Anger", "Hypnosis,Fear", "Discord "]
-  },
-  {
     "word": "Free Will",
     "forbiddenWords": ["Choice", "Determine", "Quantum", "Mechanic", "Human"]
-  },
-  {
-    "word": "Funge",
-    "forbiddenWords": ["Trade", "Commensurable", "Replace", "Against", "For"]
   },
   {
     "word": "Futarchy",
@@ -544,10 +530,6 @@
     "forbiddenWords": ["Connect", "Computer", "Server", "Web", "Communicate"]
   },
   {
-    "word": "Is",
-    "forbiddenWords": ["Be", "Are", "Was", "Been", "Were"]
-  },
-  {
     "word": "Iteration",
     "forbiddenWords": ["Again", "Loop", "Repeat", "Count", "Recur"]
   },
@@ -651,7 +633,7 @@
   },
   {
     "word": "Meta",
-    "forbiddenWords": ["Up", "Physics", "Facebook", "Quest", "Ethics"]
+    "forbiddenWords": ["WhatsApp", "Physics", "Facebook", "Quest", "Ethics"]
   },
   {
     "word": "Milgram Experiment",
@@ -838,14 +820,7 @@
   },
   {
     "word": "Recursion",
-    "forbiddenWords": [
-      "Iteration",
-      "Again",
-      "Repeat",
-      "Program",
-      "Function",
-      "Recursion"
-    ]
+    "forbiddenWords": ["Iteration", "Again", "Repeat", "Program", "Function"]
   },
   {
     "word": "Rene Descartes",
@@ -998,10 +973,6 @@
     "forbiddenWords": ["Game", "Rule", "Avoid", "Break", "Superstition"]
   },
   {
-    "word": "Taboo",
-    "forbiddenWords": ["Game", "Rule", "Violate", "Play", "Stricture"]
-  },
-  {
     "word": "Theology",
     "forbiddenWords": ["Religion", "Text", "Sage", "God", "Rule"]
   },
@@ -1019,7 +990,7 @@
   },
   {
     "word": "Trade-Off",
-    "forbiddenWords": ["Economic", "Perfect", "Optimal", "Give", "Up"]
+    "forbiddenWords": ["Economic", "Perfect", "Optimal", "Give", "Exchange"]
   },
   {
     "word": "Transcendentalism",
