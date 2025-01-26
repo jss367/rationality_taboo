@@ -129,3 +129,40 @@ option {
 input[type="checkbox"] {
   margin-left: 10px;
 }
+
+.time-warning {
+  color: orange;
+  font-size: 2rem;
+}
+
+.time-critical {
+  color: red;
+  font-size: 2.5rem;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.active-team {
+  background-color: #4caf50;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.inactive-team {
+  background-color: #f0f0f0;
+  color: #666;
+  padding: 5px 15px;
+  border-radius: 5px;
+}

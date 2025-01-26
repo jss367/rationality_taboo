@@ -27,17 +27,34 @@ document.addEventListener("DOMContentLoaded", () => {
   let timer;
 
   async function fetchWords() {
-    const response1 = fetch("words.json");
-    const response2 = fetch("words2.json");
-  
-    const [wordsData1, wordsData2] = await Promise.all([
-      response1.then((res) => res.json()),
-      response2.then((res) => res.json()),
-    ]);
-  
-    return wordsData1.concat(wordsData2);
+    try {
+      const response = await fetch("words.json");
+
+      // Check if the response is ok
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      // Check the content type
+      const contentType = response.headers.get("content-type");
+      if (!contentType || !contentType.includes("application/json")) {
+        throw new TypeError("Expected JSON response but got " + contentType);
+      }
+
+      const wordsData = await response.json();
+      return wordsData;
+    } catch (error) {
+      console.error("Error fetching words:", error);
+      // Provide a user-friendly error message
+      const errorMessage = document.createElement('div');
+      errorMessage.style.color = 'red';
+      errorMessage.style.padding = '20px';
+      errorMessage.textContent = 'Unable to load game data. Please try refreshing the page.';
+      document.body.prepend(errorMessage);
+      return [];
+    }
   }
-  
+
 
   function updateWord() {
     if (words.length === 0) {
@@ -84,8 +101,40 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+  function updateTeamDisplay() {
+    const team1Display = document.getElementById('team1-score').parentElement;
+    const team2Display = document.getElementById('team2-score').parentElement;
+
+    if (currentTeam === 1) {
+      team1Display.classList.add('active-team');
+      team1Display.classList.remove('inactive-team');
+      team2Display.classList.add('inactive-team');
+      team2Display.classList.remove('active-team');
+    } else {
+      team2Display.classList.add('active-team');
+      team2Display.classList.remove('inactive-team');
+      team1Display.classList.add('inactive-team');
+      team1Display.classList.remove('active-team');
+    }
+  }
+
   function switchTeam() {
+    clearInterval(timer);
+    switchTeamDisplay();
+    timeRemaining = parseInt(timerInput.value, 10);
+    timerElement.textContent = timeRemaining;
+    updateWord();
+  }
+
+  // Keep the event listener as is
+  document.getElementById("switch-team").addEventListener("click", () => {
+    switchTeam();
+    startTimer();
+  });
+
+  function switchTeamDisplay() {
     currentTeam = currentTeam === 1 ? 2 : 1;
+    updateTeamDisplay();
   }
 
   function playBeep() {
@@ -94,17 +143,33 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+  function updateTimer() {
+    timeRemaining--;
+    timerElement.textContent = timeRemaining;
+
+    // Remove any existing classes
+    timerElement.classList.remove('time-warning', 'time-critical');
+
+    // Add appropriate class based on time remaining
+    if (timeRemaining <= 10) {
+      timerElement.classList.add('time-critical');
+    } else if (timeRemaining <= 20) {
+      timerElement.classList.add('time-warning');
+    }
+  }
+
+  // Replace your existing timer interval with this:
   function startTimer() {
     timerElement.textContent = timeRemaining;
     timer = setInterval(() => {
-      timeRemaining--;
-      timerElement.textContent = timeRemaining;
+      updateTimer();
       if (timeRemaining <= 0) {
         clearInterval(timer);
         playBeep();
       }
     }, 1000);
   }
+
 
   function gameOver() {
     clearInterval(timer);
@@ -130,13 +195,6 @@ document.addEventListener("DOMContentLoaded", () => {
     updateWord();
   });
 
-  document.getElementById("switch-team").addEventListener("click", () => {
-    clearInterval(timer);
-    switchTeam();
-    timeRemaining = parseInt(timerInput.value, 10);
-    startTimer();
-  });
-
   settingsButton.addEventListener("click", () => {
     settingsModal.style.display = "block";
   });
@@ -156,4 +214,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const versionElement = document.getElementById('version');
     versionElement.textContent = `Version ${version}`;
   });
+
+  updateTeamDisplay();
 });
