@@ -29,15 +29,15 @@ document.addEventListener("DOMContentLoaded", () => {
   async function fetchWords() {
     const response1 = fetch("words.json");
     const response2 = fetch("words2.json");
-  
+
     const [wordsData1, wordsData2] = await Promise.all([
       response1.then((res) => res.json()),
       response2.then((res) => res.json()),
     ]);
-  
+
     return wordsData1.concat(wordsData2);
   }
-  
+
 
   function updateWord() {
     if (words.length === 0) {
@@ -84,8 +84,26 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+  function updateTeamDisplay() {
+    const team1Display = document.getElementById('team1-score').parentElement;
+    const team2Display = document.getElementById('team2-score').parentElement;
+
+    if (currentTeam === 1) {
+      team1Display.classList.add('active-team');
+      team1Display.classList.remove('inactive-team');
+      team2Display.classList.add('inactive-team');
+      team2Display.classList.remove('active-team');
+    } else {
+      team2Display.classList.add('active-team');
+      team2Display.classList.remove('inactive-team');
+      team1Display.classList.add('inactive-team');
+      team1Display.classList.remove('active-team');
+    }
+  }
+
   function switchTeam() {
     currentTeam = currentTeam === 1 ? 2 : 1;
+    updateTeamDisplay();
   }
 
   function playBeep() {
@@ -94,17 +112,33 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+  function updateTimer() {
+    timeRemaining--;
+    timerElement.textContent = timeRemaining;
+
+    // Remove any existing classes
+    timerElement.classList.remove('time-warning', 'time-critical');
+
+    // Add appropriate class based on time remaining
+    if (timeRemaining <= 10) {
+      timerElement.classList.add('time-critical');
+    } else if (timeRemaining <= 30) {
+      timerElement.classList.add('time-warning');
+    }
+  }
+
+  // Replace your existing timer interval with this:
   function startTimer() {
     timerElement.textContent = timeRemaining;
     timer = setInterval(() => {
-      timeRemaining--;
-      timerElement.textContent = timeRemaining;
+      updateTimer();
       if (timeRemaining <= 0) {
         clearInterval(timer);
         playBeep();
       }
     }, 1000);
   }
+
 
   function gameOver() {
     clearInterval(timer);
@@ -156,4 +190,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const versionElement = document.getElementById('version');
     versionElement.textContent = `Version ${version}`;
   });
+
+  updateTeamDisplay();
 });
