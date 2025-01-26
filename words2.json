@@ -114,6 +114,16 @@
     "forbiddenWords": ["Statistic", "Reverend", "Update", "Prior", "Posterior"]
   },
   {
+    "word": "Bayesian",
+    "forbiddenWords": [
+      "Probability",
+      "Statistics",
+      "Inference",
+      "Update",
+      "Prior"
+    ]
+  },
+  {
     "word": "Belief",
     "forbiddenWords": ["God", "Dragon", "Truth", "Alief", "Santa"]
   },
@@ -955,6 +965,10 @@
   {
     "word": "Sun",
     "forbiddenWords": ["Star", "Sol", "Hot", "Bright", "Gas"]
+  },
+  {
+    "word": "Superintelligence",
+    "forbiddenWords": ["AI", "Machines", "Singularity", "Nick Bostrom"]
   },
   {
     "word": "Superset",

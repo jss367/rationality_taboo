@@ -1,15 +1,5 @@
 [
   {
-    "word": "Bayesian",
-    "forbiddenWords": [
-      "Probability",
-      "Statistics",
-      "Inference",
-      "Update",
-      "Prior"
-    ]
-  },
-  {
     "word": "Black Swan",
     "forbiddenWords": ["Taleb", "Unexpected", "Event", "Impact"]
   },
@@ -180,10 +170,6 @@
       "Rapid",
       "Progress"
     ]
-  },
-  {
-    "word": "Superintelligence",
-    "forbiddenWords": ["AI", "Machines", "Singularity", "Nick Bostrom"]
   },
   {
     "word": "Turing Test",
