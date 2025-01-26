@@ -102,6 +102,14 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function switchTeam() {
+    clearInterval(timer);
+    switchTeamDisplay();
+    timeRemaining = parseInt(timerInput.value, 10);
+    updateWord();
+    startTimer();
+  }
+
+  function switchTeamDisplay() {
     currentTeam = currentTeam === 1 ? 2 : 1;
     updateTeamDisplay();
   }
@@ -122,7 +130,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Add appropriate class based on time remaining
     if (timeRemaining <= 10) {
       timerElement.classList.add('time-critical');
-    } else if (timeRemaining <= 30) {
+    } else if (timeRemaining <= 20) {
       timerElement.classList.add('time-warning');
     }
   }
