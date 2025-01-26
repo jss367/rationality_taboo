@@ -27,9 +27,32 @@ document.addEventListener("DOMContentLoaded", () => {
   let timer;
 
   async function fetchWords() {
-    const response = await fetch("words2.json");
-    const wordsData = await response.json();
-    return wordsData;
+    try {
+      const response = await fetch("words.json");
+
+      // Check if the response is ok
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      // Check the content type
+      const contentType = response.headers.get("content-type");
+      if (!contentType || !contentType.includes("application/json")) {
+        throw new TypeError("Expected JSON response but got " + contentType);
+      }
+
+      const wordsData = await response.json();
+      return wordsData;
+    } catch (error) {
+      console.error("Error fetching words:", error);
+      // Provide a user-friendly error message
+      const errorMessage = document.createElement('div');
+      errorMessage.style.color = 'red';
+      errorMessage.style.padding = '20px';
+      errorMessage.textContent = 'Unable to load game data. Please try refreshing the page.';
+      document.body.prepend(errorMessage);
+      return [];
+    }
   }
 
 
