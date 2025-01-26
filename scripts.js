@@ -122,9 +122,14 @@ document.addEventListener("DOMContentLoaded", () => {
     clearInterval(timer);
     switchTeamDisplay();
     timeRemaining = parseInt(timerInput.value, 10);
-    updateWord();
-    startTimer();
+    timerElement.textContent = timeRemaining;
   }
+
+  // Then modify the Switch Team button event listener to:
+  document.getElementById("switch-team").addEventListener("click", () => {
+    switchTeam();
+    startTimer();
+  });
 
   function switchTeamDisplay() {
     currentTeam = currentTeam === 1 ? 2 : 1;
@@ -187,13 +192,6 @@ document.addEventListener("DOMContentLoaded", () => {
       deductScore();
     }
     updateWord();
-  });
-
-  document.getElementById("switch-team").addEventListener("click", () => {
-    clearInterval(timer);
-    switchTeam();
-    timeRemaining = parseInt(timerInput.value, 10);
-    startTimer();
   });
 
   settingsButton.addEventListener("click", () => {
