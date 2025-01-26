@@ -19,15 +19,6 @@
     ]
   },
   {
-    "word": "CFAR",
-    "forbiddenWords": [
-      "Center",
-      "Applied",
-      "Rationality",
-      "Julia Galef"
-    ]
-  },
-  {
     "word": "Coherent Extrapolated Volition",
     "forbiddenWords": [
       "Yudkowsky",
