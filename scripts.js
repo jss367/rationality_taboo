@@ -123,9 +123,10 @@ document.addEventListener("DOMContentLoaded", () => {
     switchTeamDisplay();
     timeRemaining = parseInt(timerInput.value, 10);
     timerElement.textContent = timeRemaining;
+    updateWord();
   }
 
-  // Then modify the Switch Team button event listener to:
+  // Keep the event listener as is
   document.getElementById("switch-team").addEventListener("click", () => {
     switchTeam();
     startTimer();
