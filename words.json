@@ -802,6 +802,16 @@
     "forbiddenWords": ["Wand", "Explain", "Fantasy", "Science", "Spell"]
   },
   {
+    "word": "Making Beliefs Pay Rent",
+    "forbiddenWords": [
+      "Evidence",
+      "Action",
+      "Outcome",
+      "Testable",
+      "Prediction"
+    ]
+  },
+  {
     "word": "Malaria",
     "forbiddenWords": ["Net", "Against", "Foundation", "Disease", "Mosquito"]
   },
