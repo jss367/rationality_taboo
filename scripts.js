@@ -151,9 +151,9 @@ document.addEventListener("DOMContentLoaded", () => {
     timerElement.classList.remove('time-warning', 'time-critical');
 
     // Add appropriate class based on time remaining
-    if (timeRemaining <= 10) {
+    if (timeRemaining <= 5) {
       timerElement.classList.add('time-critical');
-    } else if (timeRemaining <= 20) {
+    } else if (timeRemaining <= 10) {
       timerElement.classList.add('time-warning');
     }
   }
