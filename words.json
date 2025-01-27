@@ -21,7 +21,7 @@
   },
   {
     "word": "Alien",
-    "forbiddenWords": ["Extraterrestial", "World", "Space", "Green", "UFO"]
+    "forbiddenWords": ["Extraterrestrial", "World", "Space", "Green", "UFO"]
   },
   {
     "word": "Alignment",
@@ -43,7 +43,7 @@
       "Protein",
       "Building",
       "Peptide",
-      "Carbohydrate",
+      "Organic",
       "Nucleotide"
     ]
   },
@@ -65,7 +65,7 @@
   },
   {
     "word": "Anti-Inductive",
-    "forbiddenWords": ["Stock", "Date", "Change", "Compete", "Phatic"]
+    "forbiddenWords": ["Stock", "Date", "Change", "Compete", "Predict"]
   },
   {
     "word": "Applause",
@@ -84,10 +84,6 @@
     "forbiddenWords": ["Human", "Super", "Intelligence", "Learn", "Machine"]
   },
   {
-    "word": "Asche's Conformity Experiment",
-    "forbiddenWords": ["Group", "Think", "Agree", "Story", "Psychology"]
-  },
-  {
     "word": "Atom",
     "forbiddenWords": ["Basic", "Small", "Nucleus", "Force", "Molecule"]
   },
@@ -97,7 +93,7 @@
   },
   {
     "word": "Autism",
-    "forbiddenWords": ["Obsess", "Awkward", "Nerd", "Sense", "Weight"]
+    "forbiddenWords": ["Obsess", "Awkward", "Nerd", "Sense", "Aspie/Asperger's"]
   },
   {
     "word": "Availability Heuristic",
@@ -272,6 +268,10 @@
     "forbiddenWords": ["Evidence", "Filter", "Belief", "Search", "Agree"]
   },
   {
+    "word": "Conformity Experiments",
+    "forbiddenWords": ["Group", "Think", "Agree", "Asch", "Psychology"]
+  },
+  {
     "word": "Confucianism",
     "forbiddenWords": ["Order", "Harmony", "Tradition", "Family", "Pious"]
   },
@@ -304,6 +304,16 @@
   {
     "word": "Control Group",
     "forbiddenWords": ["Experiment", "Compare", "Base", "Normal", "Study"]
+  },
+  {
+    "word": "Coordination Problem",
+    "forbiddenWords": [
+      "Cooperate",
+      "Together",
+      "Align",
+      "Organize",
+      "Collective"
+    ]
   },
   {
     "word": "Correlation",
@@ -553,7 +563,7 @@
   },
   {
     "word": "Flynn Effect",
-    "forbiddenWords": ["Iq", "Grow", "Time", "History", "Smart"]
+    "forbiddenWords": ["IQ", "Grow", "Time", "History", "Smart"]
   },
   {
     "word": "Free Will",
@@ -573,7 +583,7 @@
   },
   {
     "word": "Gell-Man Amnesia",
-    "forbiddenWords": ["News", "Know", "Field", "Michael Chrichton", "Error"]
+    "forbiddenWords": ["News", "Know", "Field", "Michael Crichton", "Error"]
   },
   {
     "word": "Gene",
@@ -784,7 +794,7 @@
     "forbiddenWords": ["Light", "Bright", "Bulb", "Depression", "Season"]
   },
   {
-    "word": "Magesterium",
+    "word": "Magisterium",
     "forbiddenWords": ["Separate", "Evidence", "Excuse", "Divine", "Different"]
   },
   {
@@ -846,6 +856,10 @@
     "forbiddenWords": ["WhatsApp", "Physics", "Facebook", "Quest", "Ethics"]
   },
   {
+    "word": "Mesa-Optimization",
+    "forbiddenWords": ["Inner", "Learned", "Model", "Objective", "Training"]
+  },
+  {
     "word": "Metacognition",
     "forbiddenWords": ["Think", "About", "Mind", "Reflect", "Aware"]
   },
@@ -854,8 +868,8 @@
     "forbiddenWords": ["Shock", "Order", "German", "Dial", "Science"]
   },
   {
-    "word": "Modafinal",
-    "forbiddenWords": ["Stimulent", "Drug", "Concentrate", "Focus", "Cat"]
+    "word": "Modafinil",
+    "forbiddenWords": ["Stimulant", "Drug", "Concentrate", "Focus", "Cat"]
   },
   {
     "word": "Modular",
@@ -917,7 +931,7 @@
   },
   {
     "word": "Nanotechnology",
-    "forbiddenWords": ["Small", "Robot", "Swarm", "Dressler", "Machine"]
+    "forbiddenWords": ["Small", "Robot", "Swarm", "Drexler", "Machine"]
   },
   {
     "word": "Nash Equilibrium",
@@ -1017,7 +1031,7 @@
   },
   {
     "word": "Philosophy",
-    "forbiddenWords": ["Think", "Abstract", "Study", " Wisdom", "Moral"]
+    "forbiddenWords": ["Think", "Abstract", "Study", "Wisdom", "Moral"]
   },
   {
     "word": "Phlogiston",
@@ -1066,6 +1080,16 @@
   {
     "word": "Priming",
     "forbiddenWords": ["Before", "Setup", "Psychology", "Replicate", "Paint"]
+  },
+  {
+    "word": "Principal-Agent Problem",
+    "forbiddenWords": [
+      "Incentive",
+      "Interest",
+      "Manager",
+      "Employee",
+      "Monitor"
+    ]
   },
   {
     "word": "Principle of Charity",
@@ -1364,7 +1388,7 @@
   },
   {
     "word": "Transcendentalism",
-    "forbiddenWords": ["Nature", "Good", "Independant", "Pond", "Walden"]
+    "forbiddenWords": ["Nature", "Good", "Independent", "Pond", "Walden"]
   },
   {
     "word": "Transhumanist",
