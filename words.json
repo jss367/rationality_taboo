@@ -1,1473 +1,3193 @@
 [
-  {
-    "word": "Ad Hominem",
-    "forbiddenWords": ["Insult", "Attack", "Character", "Personal", "Latin"]
-  },
-  {
-    "word": "Adverse Selection",
-    "forbiddenWords": ["Information", "Choice", "Against", "Survive", "Filter"]
-  },
-  {
-    "word": "Akrasia",
-    "forbiddenWords": ["Nothing", "Motivation", "Act", "Can", "Fail"]
-  },
-  {
-    "word": "Algorithm",
-    "forbiddenWords": ["Step", "Decide", "Process", "Computer", "Instruct"]
-  },
-  {
-    "word": "Alief",
-    "forbiddenWords": ["God", "Dragon", "Truth", "Belief", "Santa"]
-  },
-  {
-    "word": "Alien",
-    "forbiddenWords": ["Extraterrestial", "World", "Space", "Green", "Bug"]
-  },
-  {
-    "word": "Alignment",
-    "forbiddenWords": [
-      "Artificial",
-      "Goal",
-      "Paperclip",
-      "Research",
-      "Direction"
-    ]
-  },
-  {
-    "word": "Altruism",
-    "forbiddenWords": ["Benefit", "Help", "Effective", "MacAskill", "Give"]
-  },
-  {
-    "word": "Amino Acid",
-    "forbiddenWords": [
-      "Protein",
-      "Building",
-      "Peptide",
-      "Carbohydrate",
-      "Nucleotide"
-    ]
-  },
-  {
-    "word": "Anarchy",
-    "forbiddenWords": ["Free", "Law", "Individual", "Government", "Choice"]
-  },
-  {
-    "word": "Anchoring",
-    "forbiddenWords": ["First", "Number", "Reference", "Initial", "Adjust"]
-  },
-  {
-    "word": "Anki",
-    "forbiddenWords": ["Card", "Space", "Repeat", "Memory", "Flash"]
-  },
-  {
-    "word": "Anthropics",
-    "forbiddenWords": ["Die", "Live", "Reason", "Apocalypse", "End"]
-  },
-  {
-    "word": "Anti-Inductive",
-    "forbiddenWords": ["Stock", "Date", "Change", "Compete", "Phatic"]
-  },
-  {
-    "word": "Applause",
-    "forbiddenWords": ["Clap", "Good", "Reward. Light", "Theatre"]
-  },
-  {
-    "word": "Arbitrage",
-    "forbiddenWords": ["Trade", "Gain", "Different", "Market", "Make"]
-  },
-  {
-    "word": "Argument",
-    "forbiddenWords": ["Convince", "Debate", "Sway", "Reasoned", "Fight"]
-  },
-  {
-    "word": "Artificial General Intelligence (AGI)",
-    "forbiddenWords": ["Human", "Super", "Intelligence", "Learn", "Machine"]
-  },
-  {
-    "word": "Asche's Conformity Experiment",
-    "forbiddenWords": ["Group", "Think", "Agree", "Story", "Psychology"]
-  },
-  {
-    "word": "Atom",
-    "forbiddenWords": ["Basic", "Small", "Nucleus", "Force", "Molecule "]
-  },
-  {
-    "word": "Aumann Agreement",
-    "forbiddenWords": ["Difference", "Agent", "Know", "Conform", "Align"]
-  },
-  {
-    "word": "Autism",
-    "forbiddenWords": ["Obsess", "Awkward", "Nerd", "Sense", "Weight"]
-  },
-  {
-    "word": "Availability Heuristic",
-    "forbiddenWords": ["Memory", "Recent", "Easy", "Example", "Remember"]
-  },
-  {
-    "word": "Baby",
-    "forbiddenWords": ["Infant", "Gentle", "Rock", "Eat", "Born"]
-  },
-  {
-    "word": "Backfire Effect",
-    "forbiddenWords": ["Believe", "Stronger", "Evidence", "Against", "Contrary"]
-  },
-  {
-    "word": "Bandwidth",
-    "forbiddenWords": ["Capacity", "Data", "Transfer", "Speed", "Process"]
-  },
-  {
-    "word": "Base Rate",
-    "forbiddenWords": [
-      "Population",
-      "Statistic",
-      "Frequency",
-      "Normal",
-      "Expect"
-    ]
-  },
-  {
-    "word": "Baseball",
-    "forbiddenWords": ["Sport", "Bat", "Hit", "Pitch", "Umpire"]
-  },
-  {
-    "word": "Bayes Theorem",
-    "forbiddenWords": ["Statistic", "Reverend", "Update", "Prior", "Posterior"]
-  },
-  {
-    "word": "Bayesian",
-    "forbiddenWords": [
-      "Probability",
-      "Statistics",
-      "Inference",
-      "Update",
-      "Prior"
-    ]
-  },
-  {
-    "word": "Bayesian Inference",
-    "forbiddenWords": ["Probability", "Update", "Posterior", "Prior", "Belief"]
-  },
-  {
-    "word": "Belief",
-    "forbiddenWords": ["God", "Dragon", "Truth", "Alief", "Santa"]
-  },
-  {
-    "word": "Bias",
-    "forbiddenWords": ["Lean", "Brain", "Flaw", "System", "Unconscious"]
-  },
-  {
-    "word": "Bitcoin",
-    "forbiddenWords": ["Digital", "Currency", "Hash", "Solve", "Miner"]
-  },
-  {
-    "word": "Black Swan",
-    "forbiddenWords": ["Rare", "Event", "Impact", "Unexpected", "Taleb"]
-  },
-  {
-    "word": "Blog",
-    "forbiddenWords": ["Essay", "Internet", "Write", "Codex", "Word"]
-  },
-  {
-    "word": "Book",
-    "forbiddenWords": ["Read", "Page", "Print", "Study", "Shelf"]
-  },
-  {
-    "word": "Bottleneck",
-    "forbiddenWords": ["Limit", "Slow", "Constraint", "Resource", "Block"]
-  },
-  {
-    "word": "Bounded Rationality",
-    "forbiddenWords": [
-      "Decision",
-      "Limited",
-      "Heuristic",
-      "Constraint",
-      "Optimal"
-    ]
-  },
-  {
-    "word": "Brain",
-    "forbiddenWords": ["Cranial", "Head", "Nerve", "Think", "Skull"]
-  },
-  {
-    "word": "Bystander Effect",
-    "forbiddenWords": ["Nothing", "Someone", "Ask", "Act", "Hesitate"]
-  },
-  {
-    "word": "Calibration",
-    "forbiddenWords": ["Measure", "Error", "Bayes", "Predict", "Aim"]
-  },
-  {
-    "word": "Catastrophizing",
-    "forbiddenWords": ["Assume", "Bad", "Terrible", "Predict", "Flaw"]
-  },
-  {
-    "word": "Categorical Imperative",
-    "forbiddenWords": ["Kant", "Rule", "Universal", "Ethics", "Deontology"]
-  },
-  {
-    "word": "Cell",
-    "forbiddenWords": ["Single", "Organism", "Multi", "Wall", "Small"]
-  },
-  {
-    "word": "CFAR",
-    "forbiddenWords": ["Center", "Applied", "Rationality", "Julia Galef"]
-  },
-  {
-    "word": "Change",
-    "forbiddenWords": ["Improve", "Different", "Constant", "Obama", "Spare"]
-  },
-  {
-    "word": "Chesterton's Fence",
-    "forbiddenWords": ["Same", "Leave", "Change", "Warning", "Boundary"]
-  },
-  {
-    "word": "Cognitive Dissonance",
-    "forbiddenWords": ["Conflict", "Belief", "Psychology", "Discomfort", "Mind"]
-  },
-  {
-    "word": "Cognitive Load",
-    "forbiddenWords": ["Mental", "Effort", "Task", "Strain", "Brain"]
-  },
-  {
-    "word": "Coherent Extrapolated Volition",
-    "forbiddenWords": ["Yudkowsky", "AI", "future", "human values"]
-  },
-  {
-    "word": "Command Economy",
-    "forbiddenWords": ["Communism", "Russia", "China", "Plan", "Order"]
-  },
-  {
-    "word": "Commensurable",
-    "forbiddenWords": ["Trade", "Exchange", "Value", "Same", "Equal"]
-  },
-  {
-    "word": "Common Knowledge",
-    "forbiddenWords": ["Every", "Sense", "Simple", "Predict", "Information"]
-  },
-  {
-    "word": "Communism",
-    "forbiddenWords": ["Russia", "China", "Marx", "Ability", "Economy"]
-  },
-  {
-    "word": "Comparative Advantage",
-    "forbiddenWords": ["Good", "Economic", "Better", "Each", "Trade"]
-  },
-  {
-    "word": "Compersion",
-    "forbiddenWords": ["Polyamory", "Metamour", "Feelings", "Happiness", "Love"]
-  },
-  {
-    "word": "Computer",
-    "forbiddenWords": ["Think", "Electron", "Top", "Math", "Monitor"]
-  },
-  {
-    "word": "Confirmation Bias",
-    "forbiddenWords": ["Evidence", "Filter", "Belief", "Search", "Agree"]
-  },
-  {
-    "word": "Confucianism",
-    "forbiddenWords": ["Order", "Harmony", "Tradition", "Family", "Pious"]
-  },
-  {
-    "word": "Confusion",
-    "forbiddenWords": ["Certain", "Baffle", "Sure", "Confident", "Mystery"]
-  },
-  {
-    "word": "Conjunction",
-    "forbiddenWords": ["Words", "Combine", "Together", "Both", "Star"]
-  },
-  {
-    "word": "Consequentialism",
-    "forbiddenWords": ["Ends", "Utility", "Results", "World", "Moral"]
-  },
-  {
-    "word": "Conspiracy",
-    "forbiddenWords": ["Bayesian", "Secret", "Group", "People", "Theory"]
-  },
-  {
-    "word": "Context",
-    "forbiddenWords": [
-      "Object",
-      "Subject",
-      "Surrounding",
-      "Subtext",
-      "Attention"
-    ]
-  },
-  {
-    "word": "Control Group",
-    "forbiddenWords": ["Experiment", "Compare", "Base", "Normal", "Study"]
-  },
-  {
-    "word": "Correlation",
-    "forbiddenWords": ["Statistic", "Cause", "Similar", "Same", "Related"]
-  },
-  {
-    "word": "Cosplay",
-    "forbiddenWords": ["Con", "Costume", "Body", "Paint", "Pax"]
-  },
-  {
-    "word": "Counterfactual",
-    "forbiddenWords": ["If", "Then", "Alternative", "Possible", "Reality"]
-  },
-  {
-    "word": "Crocker's Rules",
-    "forbiddenWords": ["Information", "Rude", "Protocol", "Communicate", "Tell"]
-  },
-  {
-    "word": "Cryogenics",
-    "forbiddenWords": ["Cold", "Freeze", "Physics", "Low", "Science"]
-  },
-  {
-    "word": "Cryonics",
-    "forbiddenWords": [
-      "Freezing",
-      "Preservation",
-      "Death",
-      "Temperature",
-      "Future"
-    ]
-  },
-  {
-    "word": "Cult",
-    "forbiddenWords": ["Hood", "Cloak", "Koolaid", "Church", "Accuse"]
-  },
-  {
-    "word": "Curiosity",
-    "forbiddenWords": ["Wonder", "Mystery", "Find", "Answer", "Cat"]
-  },
-  {
-    "word": "Dakka",
-    "forbiddenWords": ["More", "Orc", "Light", "Hard", "Push"]
-  },
-  {
-    "word": "Dath Ilan",
-    "forbiddenWords": ["Eliezer", "World", "Rational", "Market", "Default"]
-  },
-  {
-    "word": "Death",
-    "forbiddenWords": ["Bad", "End", "Stop", "Mortal", "Live"]
-  },
-  {
-    "word": "Decision",
-    "forbiddenWords": ["Theory", "Choice", "Make", "Agent", "Hard"]
-  },
-  {
-    "word": "Decision Theory",
-    "forbiddenWords": ["Choices", "Rational", "Outcome", "Payoff", "Preference"]
-  },
-  {
-    "word": "Dendrite",
-    "forbiddenWords": ["Neuron", "Axon", "Input", "Synapse", "Brain"]
-  },
-  {
-    "word": "Deontology",
-    "forbiddenWords": ["Rule", "Religion", "Kill", "Instruct", "Philosophy"]
-  },
-  {
-    "word": "Depression",
-    "forbiddenWords": ["Hedon", "Sad", "Bored", "Suicide", "Nothing"]
-  },
-  {
-    "word": "Dice",
-    "forbiddenWords": ["Die", "Roll", "Game", "Random", "Six"]
-  },
-  {
-    "word": "Dojo",
-    "forbiddenWords": ["Martial", "Studio", "Art", "Practice", "Train"]
-  },
-  {
-    "word": "Double Crux",
-    "forbiddenWords": ["Debate", "Argument", "Collaborate", "Truth", "Pair"]
-  },
-  {
-    "word": "Dragon",
-    "forbiddenWords": ["Lizard", "Fire", "Wing", "Dungeon", "Smaug"]
-  },
-  {
-    "word": "Drowning Child",
-    "forbiddenWords": ["Coat", "Pay", "Altruism", "Distance", "Singer"]
-  },
-  {
-    "word": "Dunbar's Number",
-    "forbiddenWords": [
-      "Social",
-      "Relationships",
-      "Friends",
-      "Cognitive",
-      "Limit"
-    ]
-  },
-  {
-    "word": "Dunning-Kruger Effect",
-    "forbiddenWords": ["Know", "Confident", "Correct", "Relative", "Skill"]
-  },
-  {
-    "word": "Dust",
-    "forbiddenWords": ["Dirt", "Speck", "Torture", "Eye", "Feather"]
-  },
-  {
-    "word": "Dyson Sphere",
-    "forbiddenWords": ["Sun", "Power", "Technology", "Dam", "Circle"]
-  },
-  {
-    "word": "Economy",
-    "forbiddenWords": ["Command", "Market", "Trade", "Social", "Money"]
-  },
-  {
-    "word": "Effective Altruism",
-    "forbiddenWords": [
-      "Charity",
-      "Doing good",
-      "Impact",
-      "Resources",
-      "Philanthropy"
-    ]
-  },
-  {
-    "word": "Efficient Market Hypothesis",
-    "forbiddenWords": ["Price", "Predict", "Correct", "Dollar", "Bill"]
-  },
-  {
-    "word": "Egoism",
-    "forbiddenWords": ["Me", "I", "Believe", "Value", "Philosophy"]
-  },
-  {
-    "word": "Eliezer Yudkowsky",
-    "forbiddenWords": [
-      "Rationality",
-      "Artificial",
-      "Intelligent",
-      "Wrong",
-      "Dath Ilan"
-    ]
-  },
-  {
-    "word": "Empiricism",
-    "forbiddenWords": ["Science", "Bacon", "Discover", "Test", "Experiment"]
-  },
-  {
-    "word": "Epistemic",
-    "forbiddenWords": [
-      "Knowledge",
-      "Belief",
-      "Justified",
-      "Rational",
-      "Uncertainty"
-    ]
-  },
-  {
-    "word": "Epistemology",
-    "forbiddenWords": ["Theory", "Know", "Belief", "Status", "Fact "]
-  },
-  {
-    "word": "Equilibrium",
-    "forbiddenWords": ["Balance", "Adequate", "Economic", "Nash", "Stable"]
-  },
-  {
-    "word": "Ethics",
-    "forbiddenWords": ["Moral", "Rule", "Philosophy", "Religion", "Deontology"]
-  },
-  {
-    "word": "Eudaimonia",
-    "forbiddenWords": ["Happiness", "Flourish", "Aristotle", "Goal", "Life"]
-  },
-  {
-    "word": "Everett Branch",
-    "forbiddenWords": ["Quantum", "Possible", "Alternate", "Multi", "Universe"]
-  },
-  {
-    "word": "Evidence",
-    "forbiddenWords": ["Proof", "Science", "Empirical", "Data", "Test"]
-  },
-  {
-    "word": "Existential",
-    "forbiddenWords": ["Risk", "Exist", "Extinct", "Purpose", "Survive"]
-  },
-  {
-    "word": "Existential Risk",
-    "forbiddenWords": [
-      "Extinction",
-      "Humanity",
-      "Global",
-      "Catastrophe",
-      "Threat"
-    ]
-  },
-  {
-    "word": "Expected Utility",
-    "forbiddenWords": ["Calculate", "Value", "Choice", "Risk", "Outcome"]
-  },
-  {
-    "word": "Expected Value",
-    "forbiddenWords": [
-      "Average",
-      "Outcome",
-      "Probability",
-      "Calculate",
-      "Future"
-    ]
-  },
-  {
-    "word": "Externality",
-    "forbiddenWords": ["Effect", "Cost", "Benefit", "Market", "Unintended"]
-  },
-  {
-    "word": "Fallacy",
-    "forbiddenWords": ["Flaw", "Reason", "Logic", "Debate", "Cheat"]
-  },
-  {
-    "word": "Falsifiability",
-    "forbiddenWords": ["Popper", "Test", "Prove", "Wrong", "Science"]
-  },
-  {
-    "word": "Fanfiction",
-    "forbiddenWords": ["Write", "Fake", "Amatuer", "Methods", "Archive"]
-  },
-  {
-    "word": "Feedback Loop",
-    "forbiddenWords": ["Cycle", "Return", "System", "Effect", "Cause"]
-  },
-  {
-    "word": "Fermi Paradox",
-    "forbiddenWords": ["Aliens", "Life", "Universe", "Exist", "Star"]
-  },
-  {
-    "word": "Filter Bubble",
-    "forbiddenWords": ["Politics", "Culture", "Different", "Probable", "Sort"]
-  },
-  {
-    "word": "Fire",
-    "forbiddenWords": ["Hot", "Wood", "Cook", "Camp", "Burn"]
-  },
-  {
-    "word": "First Principles",
-    "forbiddenWords": ["Basic", "Foundation", "Ground", "Start", "Fundamental"]
-  },
-  {
-    "word": "Flynn Effect",
-    "forbiddenWords": ["Iq", "Grow", "Time", "History", "Smart"]
-  },
-  {
-    "word": "Free Will",
-    "forbiddenWords": ["Choice", "Determine", "Quantum", "Mechanic", "Human"]
-  },
-  {
-    "word": "Friendly AI",
-    "forbiddenWords": ["Safety", "Align", "Goal", "Risk", "Human"]
-  },
-  {
-    "word": "Futarchy",
-    "forbiddenWords": ["Vote", "Money", "Predict", "Robin Hanson", "Women "]
-  },
-  {
-    "word": "Game",
-    "forbiddenWords": ["Board", "Sport", "Cheat", "Ready", "Play"]
-  },
-  {
-    "word": "Gell-Man Amnesia",
-    "forbiddenWords": ["News", "Know", "Field", "Michael Chrichton", "Error"]
-  },
-  {
-    "word": "Gene",
-    "forbiddenWords": ["Dna", "Inherit", "Parent", "Mendelian", "Punnet Square"]
-  },
-  {
-    "word": "Givewell",
-    "forbiddenWords": ["Charity", "Effective", "Altruism", "Donate", "Cost "]
-  },
-  {
-    "word": "Glowfic",
-    "forbiddenWords": ["Bell", "Joker", "Fanfiction", "Silmarillion", "Alicorn"]
-  },
-  {
-    "word": "Godwin's Law",
-    "forbiddenWords": ["Nazi", "Online", "Argument", "Long", "Compare"]
-  },
-  {
-    "word": "Goodhart's Law",
-    "forbiddenWords": ["Optimize", "Measure", "Target", "Performance", "Goal"]
-  },
-  {
-    "word": "Grabby Aliens",
-    "forbiddenWords": ["Robin Hanson", "Extraterrestrial", "Galaxy", "UFO"]
-  },
-  {
-    "word": "Gravity",
-    "forbiddenWords": ["Fall", "Drop", "Weigh", "Newton", "Apple"]
-  },
-  {
-    "word": "Great Filter",
-    "forbiddenWords": ["Fermi Paradox", "Extinction", "Life", "Civilizations"]
-  },
-  {
-    "word": "Gresham's Law",
-    "forbiddenWords": ["Money", "Value", "Currency", "Bad", "Drive"]
-  },
-  {
-    "word": "Guilt",
-    "forbiddenWords": ["Shame", "Fail", "Wrong", "Trip", "Crime"]
-  },
-  {
-    "word": "Gödel's Incompleteness",
-    "forbiddenWords": ["Theorem", "Mathematics", "Logic", "Provable"]
-  },
-  {
-    "word": "Halo Effect",
-    "forbiddenWords": ["Appearance", "Judge", "Bias", "Horns", "Attractive"]
-  },
-  {
-    "word": "Hamming",
-    "forbiddenWords": ["Question", "Important", "Work", "Richard", "Ask"]
-  },
-  {
-    "word": "Hanlon's Razor",
-    "forbiddenWords": ["Stupidity", "Malice", "Human", "Behave", "Attribute"]
-  },
-  {
-    "word": "Hedon",
-    "forbiddenWords": ["Good", "Value", "Goal", "Util", "Pleasure"]
-  },
-  {
-    "word": "Heresy",
-    "forbiddenWords": ["Church", "Schism", "Inquisition", "Difference", "Burn"]
-  },
-  {
-    "word": "Horns Effect",
-    "forbiddenWords": ["Appearance", "Judge", "Bias", "Halo", "Attractive"]
-  },
-  {
-    "word": "Humility",
-    "forbiddenWords": ["Humble", "Wise", "Proud", "Cautious", " False"]
-  },
-  {
-    "word": "Hyperbolic Discounting",
-    "forbiddenWords": ["Future", "Present", "Economic", "Preference", "Time"]
-  },
-  {
-    "word": "Hyperreality",
-    "forbiddenWords": ["Simulacra", "Baudrillard", "Fake", "Reality", "Image"]
-  },
-  {
-    "word": "Hypothesis",
-    "forbiddenWords": [
-      "Guess",
-      "Theory",
-      "Prediction",
-      "Experiment",
-      "Assumption"
-    ]
-  },
-  {
-    "word": "Ice",
-    "forbiddenWords": ["Water", "Cold", "Freeze", "Winter", "Snow"]
-  },
-  {
-    "word": "Illusion",
-    "forbiddenWords": ["Believe", "False", "Deception", "Image", "Fake"]
-  },
-  {
-    "word": "Illusion of Transparency",
-    "forbiddenWords": ["Understand", "Thought", "Mind", "Know", "Explain"]
-  },
-  {
-    "word": "Impermanence",
-    "forbiddenWords": [
-      "Buddhism",
-      "Suffering",
-      "Self",
-      "Characteristic",
-      "Thre"
-    ]
-  },
-  {
-    "word": "Incentive",
-    "forbiddenWords": ["Bribe", "Pay", "Reason", "Act", "Gradient"]
-  },
-  {
-    "word": "Index Card",
-    "forbiddenWords": ["Paper", "Note", "Pocket", "Flash", "Sky"]
-  },
-  {
-    "word": "Inferential Distance",
-    "forbiddenWords": ["Gap", "Difference", "Teach", "Share", "Know"]
-  },
-  {
-    "word": "Infinity",
-    "forbiddenWords": ["Number", "Count", "Calculus", "Lightyear", "Area"]
-  },
-  {
-    "word": "Infohazard",
-    "forbiddenWords": ["Spoiler", "Hazard", "Damage", "Harm", "Know"]
-  },
-  {
-    "word": "Information Cascade",
-    "forbiddenWords": ["Follow", "Crowd", "Decision", "Copy", "Chain"]
-  },
-  {
-    "word": "Insane",
-    "forbiddenWords": ["Crazy", "Defense", "Nuts", "Strange", "Clinical"]
-  },
-  {
-    "word": "Instrumental",
-    "forbiddenWords": ["Goal", "Means", "Ends", "Purpose", "Value"]
-  },
-  {
-    "word": "Instrumental Value",
-    "forbiddenWords": ["Want", "Accomplish", "Intermediate", "Money", "Goal"]
-  },
-  {
-    "word": "Intelligent",
-    "forbiddenWords": ["Smart", "Artificial", "Clever", "Brain", "Human"]
-  },
-  {
-    "word": "Internet",
-    "forbiddenWords": ["Connect", "Computer", "Server", "Web", "Communicate"]
-  },
-  {
-    "word": "Iteration",
-    "forbiddenWords": ["Again", "Loop", "Repeat", "Count", "Recur"]
-  },
-  {
-    "word": "Kabbalah",
-    "forbiddenWords": ["Jewish", "Song", "Torah", "Word", "Bible"]
-  },
-  {
-    "word": "Kelsey Piper",
-    "forbiddenWords": ["Caring", "Money", "Journal", "Glowfic", "Elf"]
-  },
-  {
-    "word": "Kolmogorov Complexity",
-    "forbiddenWords": ["Computer", "Short", "Minimum", "Information", "Science"]
-  },
-  {
-    "word": "Latex",
-    "forbiddenWords": ["Type", "Paper", "Format", "Rubber", "Suit"]
-  },
-  {
-    "word": "LessWrong",
-    "forbiddenWords": ["More", "Right", "Rational", "Sequence", "Bias"]
-  },
-  {
-    "word": "Ligament",
-    "forbiddenWords": ["Tendon", "Bone", "Knee", "Connect", "Joint"]
-  },
-  {
-    "word": "Lindy Effect",
-    "forbiddenWords": ["Time", "Survive", "Future", "Old", "Expect"]
-  },
-  {
-    "word": "Litany",
-    "forbiddenWords": ["Gendlin", "Chant", "Jai", "Tarski", "Prayer"]
-  },
-  {
-    "word": "Literal",
-    "forbiddenWords": ["Exact", "Exaggerate", "True", "Figure", "Quote"]
-  },
-  {
-    "word": "Lizardman Constant",
-    "forbiddenWords": ["Statistic", "Survey", "Wrong", "Minority", "Troll"]
-  },
-  {
-    "word": "Loss Aversion",
-    "forbiddenWords": ["Bias", "Gain", "Fail", "Balance", "Hurt"]
-  },
-  {
-    "word": "Lumen",
-    "forbiddenWords": ["Light", "Bright", "Bulb", "Depression", "Season"]
-  },
-  {
-    "word": "Magesterium",
-    "forbiddenWords": ["Separate", "Evidence", "Excuse", "Divine", "Different"]
-  },
-  {
-    "word": "Magic",
-    "forbiddenWords": ["Wand", "Explain", "Fantasy", "Science", "Spell"]
-  },
-  {
-    "word": "Malaria",
-    "forbiddenWords": ["Net", "Against", "Foundation", "Disease", "Mosquito"]
-  },
-  {
-    "word": "Malthus",
-    "forbiddenWords": [
-      "Population",
-      "Food",
-      "Agriculture",
-      "Revolution",
-      "Conclusion"
-    ]
-  },
-  {
-    "word": "Marginal Cost",
-    "forbiddenWords": ["Pay", "Decrease", "More", "Next", "Worth"]
-  },
-  {
-    "word": "Market Economy",
-    "forbiddenWords": ["Trade", "Good", "Value", "Merchant", "Capital"]
-  },
-  {
-    "word": "Mars",
-    "forbiddenWords": ["Planet", "Red", "War", "Four", "Elon Musk"]
-  },
-  {
-    "word": "Math",
-    "forbiddenWords": ["Equation", "Add", "Subtract", "Multiply", "Divide"]
-  },
-  {
-    "word": "Mealsquare",
-    "forbiddenWords": ["Food", "Taste", "Optimal", "Biscuit", "Nutrition "]
-  },
-  {
-    "word": "Meditation",
-    "forbiddenWords": ["Sit", "Concentrate", "Empty", "Monk", "Ritual"]
-  },
-  {
-    "word": "Melatonin",
-    "forbiddenWords": ["Sleep", "Hormone", "Rest", "Dose", "Dream"]
-  },
-  {
-    "word": "Meme",
-    "forbiddenWords": ["Idea", "Internet", "Spread", "Repeat", "Gif"]
-  },
-  {
-    "word": "Memetics",
-    "forbiddenWords": ["Meme", "Culture", "Spread", "Replicate", "Idea"]
-  },
-  {
-    "word": "Meta",
-    "forbiddenWords": ["WhatsApp", "Physics", "Facebook", "Quest", "Ethics"]
-  },
-  {
-    "word": "Metacognition",
-    "forbiddenWords": ["Think", "About", "Mind", "Reflect", "Aware"]
-  },
-  {
-    "word": "Milgram Experiment",
-    "forbiddenWords": ["Shock", "Order", "German", "Dial", "Science"]
-  },
-  {
-    "word": "Modafinal",
-    "forbiddenWords": ["Stimulent", "Drug", "Concentrate", "Focus", "Cat"]
-  },
-  {
-    "word": "Modular",
-    "forbiddenWords": ["Reversible", "Cube", "Furniture", "Function", "Change"]
-  },
-  {
-    "word": "Modus Ponens",
-    "forbiddenWords": ["One", "Conclude", "Logic", "Therefore", "Another"]
-  },
-  {
-    "word": "Moloch",
-    "forbiddenWords": [
-      "Coordination",
-      "Competition",
-      "Scott/SSC/ACX",
-      "Incentives",
-      "Meditations"
-    ]
-  },
-  {
-    "word": "Money",
-    "forbiddenWords": ["Caring", "Unit", "Account", "Exchange", "Currency"]
-  },
-  {
-    "word": "Moon",
-    "forbiddenWords": ["Rock", "Tide", "Luna", "Month", "Space"]
-  },
-  {
-    "word": "Moore's Law",
-    "forbiddenWords": [
-      "Science",
-      "Transistor",
-      "Computer",
-      "Exponent",
-      "Growth"
-    ]
-  },
-  {
-    "word": "Moral Relativism",
-    "forbiddenWords": ["Subjective", "Culture", "Ethics", "Belief", "Right"]
-  },
-  {
-    "word": "Morality",
-    "forbiddenWords": ["Ethics", "Good", "Religion", "Agree", "Bad"]
-  },
-  {
-    "word": "Motte And Bailey",
-    "forbiddenWords": [
-      "Castle",
-      "Field",
-      "Retreat",
-      "Frustrate",
-      "Fortification"
-    ]
-  },
-  {
-    "word": "Murphy-Jitsu",
-    "forbiddenWords": ["Wrong", "Plan", "Expect", "Time", "Fail"]
-  },
-  {
-    "word": "Nanotechnology",
-    "forbiddenWords": ["Small", "Robot", "Swarm", "Dressler", "Machine"]
-  },
-  {
-    "word": "Nash Equilibrium",
-    "forbiddenWords": ["Game", "Theory", "Stable", "Strategy", "Solution"]
-  },
-  {
-    "word": "Negentropy",
-    "forbiddenWords": ["Reverse", "Order", "Structure", "Universe", "Fade"]
-  },
-  {
-    "word": "Network Effect",
-    "forbiddenWords": ["Value", "Users", "Facebook", "Social", "Increase"]
-  },
-  {
-    "word": "Newcomb's Paradox",
-    "forbiddenWords": ["Box", "One", "Two", "Omega", "Dollar"]
-  },
-  {
-    "word": "Nihilism",
-    "forbiddenWords": ["Nothing", "Matter", "Void", "Bleak", "Empty"]
-  },
-  {
-    "word": "Objectivism",
-    "forbiddenWords": ["Ayn Rand", "Atlas", "Greed", "Selfish", "Absolute"]
-  },
-  {
-    "word": "Obsession",
-    "forbiddenWords": ["Mind", "Fill", "Fixate", "Think", "Compulse"]
-  },
-  {
-    "word": "Occam's Razor",
-    "forbiddenWords": [
-      "Simplicity",
-      "Explanation",
-      "Hypothesis",
-      "Complexity",
-      "Principle"
-    ]
-  },
-  {
-    "word": "Opportunity Cost",
-    "forbiddenWords": ["Alternative", "Give", "Choice", "Lose", "Instead"]
-  },
-  {
-    "word": "Optimize",
-    "forbiddenWords": ["Better", "Grow", "Improve", "Number", "Hill"]
-  },
-  {
-    "word": "Orthogonality Thesis",
-    "forbiddenWords": ["AI", "Goal", "Objective", "Intelligence", "Align"]
-  },
-  {
-    "word": "Outside View",
-    "forbiddenWords": ["Base", "Reference", "Class", "Group", "Predict"]
-  },
-  {
-    "word": "Overton Window",
-    "forbiddenWords": ["Normal", "Expected", "Range", "Reasonable", "Predict"]
-  },
-  {
-    "word": "Ozymandias",
-    "forbiddenWords": ["Pillar", "Stone", "Poem", "Brennan", "Despair"]
-  },
-  {
-    "word": "P-Zombie",
-    "forbiddenWords": ["Free", "Will", "Philosophy", "Same", "Human"]
-  },
-  {
-    "word": "Paperclip",
-    "forbiddenWords": ["Word", "Metal", "Artificial", "Goal", "Value"]
-  },
-  {
-    "word": "Paperclip Maximizer",
-    "forbiddenWords": ["Value", "AI", "Optimize", "Goal", "Utility"]
-  },
-  {
-    "word": "Pareto Efficiency",
-    "forbiddenWords": ["Optimal", "Better", "Improve", "Trade", "Value"]
-  },
-  {
-    "word": "Pareto Principle",
-    "forbiddenWords": [
-      "80/20 rule",
-      "Efficiency",
-      "Distribution",
-      "Economics",
-      "Productivity"
-    ]
-  },
-  {
-    "word": "Pascal's Mugging",
-    "forbiddenWords": ["God", "Bet", "Infinite", "Odds", "Convert"]
-  },
-  {
-    "word": "Petrov",
-    "forbiddenWords": ["Nuclear", "Alarm", "Russian", "Cold", "Day"]
-  },
-  {
-    "word": "Philosophy",
-    "forbiddenWords": ["Think", "Abstract", "Study", " Wisdom", "Moral"]
-  },
-  {
-    "word": "Phlogiston",
-    "forbiddenWords": ["Element", "Fire", "Combust", "Greek", "Science"]
-  },
-  {
-    "word": "Pica",
-    "forbiddenWords": ["Ice", "Iron", "Goal", "Signal", "Disorder"]
-  },
-  {
-    "word": "Placebo",
-    "forbiddenWords": ["Medicine", "Sugar", "Fake", "Expect", "Experiment"]
-  },
-  {
-    "word": "Pluralistic Ignorance",
-    "forbiddenWords": ["Group", "Believe", "Wrong", "Conform", "Think"]
-  },
-  {
-    "word": "Pluto",
-    "forbiddenWords": ["Planet", "Nine", "Dog", "Hades", "Space"]
-  },
-  {
-    "word": "Politics",
-    "forbiddenWords": ["Mind", "Kill", "Republic", "Democrat", "Power"]
-  },
-  {
-    "word": "Polyamory",
-    "forbiddenWords": ["Love", "Free", "Open", "Mono", "Relationship"]
-  },
-  {
-    "word": "Post-Rationalist",
-    "forbiddenWords": ["Emotion", "Circle", "Super", "After", "Splinter"]
-  },
-  {
-    "word": "Power Law",
-    "forbiddenWords": ["Distribution", "Scale", "Exponential", "Curve", "Graph"]
-  },
-  {
-    "word": "Precision",
-    "forbiddenWords": ["Accurate", "Detail", "Decimal", "False", "Narrow"]
-  },
-  {
-    "word": "Prediction",
-    "forbiddenWords": ["Accurate", "Forecast", "Error", "Market", "Seer"]
-  },
-  {
-    "word": "Priming",
-    "forbiddenWords": ["Before", "Setup", "Psychology", "Replicate", "Paint"]
-  },
-  {
-    "word": "Principle of Charity",
-    "forbiddenWords": ["Interpret", "Best", "Steel", "Assume", "Generous"]
-  },
-  {
-    "word": "Prisoner's Dilemma",
-    "forbiddenWords": ["Defect", "Cooperate", "Interrogate", "Pay", "Matrix"]
-  },
-  {
-    "word": "Program",
-    "forbiddenWords": ["Computer", "Instruction", "Music", "Code", "Write "]
-  },
-  {
-    "word": "Quantum Immortality",
-    "forbiddenWords": ["Isekai", "Live", "Truck", "Die", "Branch"]
-  },
-  {
-    "word": "Quantum Mechanics",
-    "forbiddenWords": [
-      "Physics",
-      "Superposition",
-      "Wave function",
-      "Schrödinger"
-    ]
-  },
-  {
-    "word": "Random",
-    "forbiddenWords": ["Die", "Hash", "Noise", "Clock", "Predict"]
-  },
-  {
-    "word": "Rational",
-    "forbiddenWords": ["Logical", "Aspiring", "Sense", "Wrong", "Descartes"]
-  },
-  {
-    "word": "Rationalist",
-    "forbiddenWords": ["Reason", "Logic", "Evidence", "Community"]
-  },
-  {
-    "word": "Recursion",
-    "forbiddenWords": ["Iteration", "Again", "Repeat", "Program", "Function"]
-  },
-  {
-    "word": "Red Queen Hypothesis",
-    "forbiddenWords": ["Evolution", "Adapt", "Compete", "Survive", "Change"]
-  },
-  {
-    "word": "Reductionism",
-    "forbiddenWords": ["Simple", "Parts", "Break", "Complex", "Basic"]
-  },
-  {
-    "word": "Rene Descartes",
-    "forbiddenWords": ["Philosophy", "Science", "Think", "Am", "Enlighten "]
-  },
-  {
-    "word": "Repetition",
-    "forbiddenWords": ["Again", "Loop", "Learn", "Habit", "Cycle"]
-  },
-  {
-    "word": "Risk Assessment",
-    "forbiddenWords": ["Danger", "Evaluate", "Probability", "Harm", "Chance"]
-  },
-  {
-    "word": "Ritual",
-    "forbiddenWords": ["Candle", "Night", "Tradition", "Circle", "Solstice"]
-  },
-  {
-    "word": "Robin Hanson",
-    "forbiddenWords": [
-      "Futarchy",
-      "Economic",
-      "Cynic",
-      "Bias",
-      "Eliezer Yudkowsky"
-    ]
-  },
-  {
-    "word": "Robot",
-    "forbiddenWords": ["Android", "Arm", "Asimov", "Artificial", "Automaton"]
-  },
-  {
-    "word": "Roko's Basilisk",
-    "forbiddenWords": [
-      "Thought experiment",
-      "AI",
-      "Blackmail",
-      "Future",
-      "Punish"
-    ]
-  },
-  {
-    "word": "Russell Conjugation",
-    "forbiddenWords": ["And", "Emotive", "I", "You", "They"]
-  },
-  {
-    "word": "Sane",
-    "forbiddenWords": ["Normal", "Neurotypical", "Expect", "Function", "Clean"]
-  },
-  {
-    "word": "Sapir-Whorf Hypothesis",
-    "forbiddenWords": ["Word", "Language", "Mind", "Brain", "Think"]
-  },
-  {
-    "word": "Schelling Point",
-    "forbiddenWords": [
-      "Library",
-      "Post Office",
-      "Coordinate",
-      "Meet",
-      "Obvious"
-    ]
-  },
-  {
-    "word": "Schrodinger's Cat",
-    "forbiddenWords": ["Quantum", "Alive", "Dead", "Box", "Physics"]
-  },
-  {
-    "word": "Science",
-    "forbiddenWords": ["Experiment", "Learn", "World", "Technology", "Paper"]
-  },
-  {
-    "word": "Scott Alexander",
-    "forbiddenWords": ["Astral", "Slate", "Star", "Codex", "Spiral"]
-  },
-  {
-    "word": "Secret",
-    "forbiddenWords": ["Tell", "Information", "Reveal", "Hide", "Conspire"]
-  },
-  {
-    "word": "Selection Pressure",
-    "forbiddenWords": [
-      "Evolution",
-      "Survive",
-      "Adapt",
-      "Environment",
-      "Natural"
-    ]
-  },
-  {
-    "word": "Sequence",
-    "forbiddenWords": ["Rationality", "Count", "Series", "Set", "Zombie"]
-  },
-  {
-    "word": "Shibboleth",
-    "forbiddenWords": [
-      "Distinguish",
-      "Language",
-      "Accent",
-      "Custom",
-      "Password"
-    ]
-  },
-  {
-    "word": "Simulation",
-    "forbiddenWords": ["Matrix", "Computer", "Reality", "Fake", "Pretend"]
-  },
-  {
-    "word": "Simulation Hypothesis",
-    "forbiddenWords": [
-      "Virtual reality",
-      "Matrix",
-      "Universe",
-      "Nick Bostrom",
-      "Technology"
-    ]
-  },
-  {
-    "word": "Singularity",
-    "forbiddenWords": [
-      "Technological",
-      "Accelerating",
-      "Future",
-      "Rapid",
-      "Progress"
-    ]
-  },
-  {
-    "word": "Sleep",
-    "forbiddenWords": ["Rest", "Dream", "Lie", "Bed", "Rem"]
-  },
-  {
-    "word": "Socrates",
-    "forbiddenWords": ["Philosophy", "Cave", "Shadow", "Solid", "Hemlock"]
-  },
-  {
-    "word": "Solstice",
-    "forbiddenWords": ["Winter", "Summer", "Song", "Ray", "Ritual"]
-  },
-  {
-    "word": "Soylent",
-    "forbiddenWords": ["Powder", "Food", "Green", "People", "Replacement"]
-  },
-  {
-    "word": "Space",
-    "forbiddenWords": ["Outer", "Star", "Sun", "Planet", "Ship"]
-  },
-  {
-    "word": "Stanford Prison Experiment",
-    "forbiddenWords": ["Prison", "Guard", "Psychology", "Ethics", "Moral"]
-  },
-  {
-    "word": "Statistics",
-    "forbiddenWords": ["Lies", "Frequent", "Bayes", "Probability", "Summary"]
-  },
-  {
-    "word": "Status",
-    "forbiddenWords": ["People", "Popular", "Respect", "High", "Low"]
-  },
-  {
-    "word": "Steel Man",
-    "forbiddenWords": ["Argument", "Strong", "Straw", "Fair", "Best"]
-  },
-  {
-    "word": "Strategy",
-    "forbiddenWords": ["Tactic", "Plan", "General", "Cunning", "War"]
-  },
-  {
-    "word": "Straw Man",
-    "forbiddenWords": ["Fallacy", "Fake", "Dumb", "Easy", "Argue"]
-  },
-  {
-    "word": "Streisand Effect",
-    "forbiddenWords": ["Hide", "Attention", "Internet", "Reveal", "Suppress"]
-  },
-  {
-    "word": "Sturgeon's Law",
-    "forbiddenWords": ["Crap", "Scifi", "90", "Media", "Author"]
-  },
-  {
-    "word": "Sun",
-    "forbiddenWords": ["Star", "Sol", "Hot", "Bright", "Gas"]
-  },
-  {
-    "word": "Sunk Cost Fallacy",
-    "forbiddenWords": ["Invest", "Loss", "Quit", "Decision", "Money"]
-  },
-  {
-    "word": "Superintelligence",
-    "forbiddenWords": ["AI", "Machines", "Singularity", "Nick Bostrom"]
-  },
-  {
-    "word": "Superset",
-    "forbiddenWords": ["Group", "More", "All", "Math", "Include"]
-  },
-  {
-    "word": "Superstimuli",
-    "forbiddenWords": ["Porn", "Junk", "Food", "Overwhelm", "Music"]
-  },
-  {
-    "word": "System 1",
-    "forbiddenWords": ["Fast", "Slow", "Intuit", "Brain", "Reflex"]
-  },
-  {
-    "word": "Taboo",
-    "forbiddenWords": ["Game", "Rule", "Avoid", "Break", "Superstition"]
-  },
-  {
-    "word": "Tautology",
-    "forbiddenWords": ["Logic", "Truth", "Redundant", "Statement", "Valid"]
-  },
-  {
-    "word": "Technical Debt",
-    "forbiddenWords": ["Code", "Future", "Quick", "Fix", "Cost"]
-  },
-  {
-    "word": "Theology",
-    "forbiddenWords": ["Religion", "Text", "Sage", "God", "Rule"]
-  },
-  {
-    "word": "Theory",
-    "forbiddenWords": ["Hypothesis", "Evolution", "Suspect", "Guess", "Science"]
-  },
-  {
-    "word": "Thermodynamics",
-    "forbiddenWords": ["Heat", "Energy", "System", "Entropy", "Physics"]
-  },
-  {
-    "word": "Think",
-    "forbiddenWords": ["Know", "Compute", "Test", "School", "Stop"]
-  },
-  {
-    "word": "Toxoplasma",
-    "forbiddenWords": ["Cat", "Two", "Disease", "Parasite", "Spread"]
-  },
-  {
-    "word": "Trade-Off",
-    "forbiddenWords": ["Economic", "Perfect", "Optimal", "Give", "Exchange"]
-  },
-  {
-    "word": "Tragedy of the Commons",
-    "forbiddenWords": ["Resource", "Shared", "Deplete", "Overuse", "Group"]
-  },
-  {
-    "word": "Transcendentalism",
-    "forbiddenWords": ["Nature", "Good", "Independant", "Pond", "Walden"]
-  },
-  {
-    "word": "Transhumanist",
-    "forbiddenWords": ["Singularity", "Cyborg", "Limit", "Mortal", "Artificial"]
-  },
-  {
-    "word": "Transparent",
-    "forbiddenWords": ["See", "Through", "Ghost", "Illusion", "Hologram"]
-  },
-  {
-    "word": "Trolley Problem",
-    "forbiddenWords": ["Kill", "Switch", "Choose", "Die", "Five"]
-  },
-  {
-    "word": "Truth",
-    "forbiddenWords": ["Beauty", "Real", "Own", "Science", "Speak"]
-  },
-  {
-    "word": "Turing Machine",
-    "forbiddenWords": ["Computer", "Complete", "Program", "Memory", "Algorithm"]
-  },
-  {
-    "word": "Turing Test",
-    "forbiddenWords": ["Computer", "Chat", "Human", "Deceive", "Talk"]
-  },
-  {
-    "word": "University",
-    "forbiddenWords": ["College", "School", "Learning", "Debt", "Graduate"]
-  },
-  {
-    "word": "Unsong",
-    "forbiddenWords": ["Book", "Scott", "Kaballah", "Aaron", "Comedy"]
-  },
-  {
-    "word": "Utilitarian",
-    "forbiddenWords": ["Mill", "Singer", "Hedon", "Great", "Good"]
-  },
-  {
-    "word": "Utilitarianism",
-    "forbiddenWords": [
-      "Ethics",
-      "Happiness",
-      "Good",
-      "Philosophy",
-      "Consequentialism"
-    ]
-  },
-  {
-    "word": "Utility Function",
-    "forbiddenWords": ["Preference", "Optimize", "Value", "Outcome", "Decision"]
-  },
-  {
-    "word": "Value Drift",
-    "forbiddenWords": [
-      "Visser",
-      "Desire",
-      "Difference",
-      "Change",
-      "Organization"
-    ]
-  },
-  {
-    "word": "Variable",
-    "forbiddenWords": ["Change", "Factor", "Depend", "Different", "Measure"]
-  },
-  {
-    "word": "Veil Of Ignorance",
-    "forbiddenWords": ["Rawls", "Before", "World", "Philosophy", "Person"]
-  },
-  {
-    "word": "Virtue",
-    "forbiddenWords": ["Good", "Vice", "Deontology", "Nice", "Grow"]
-  },
-  {
-    "word": "Virtue Ethics",
-    "forbiddenWords": [
-      "Moral",
-      "Character",
-      "Aristotle",
-      "Virtue",
-      "Deontology"
-    ]
-  },
-  {
-    "word": "Void",
-    "forbiddenWords": ["Space", "Black", "Eternity", "Hole", "Empty"]
-  },
-  {
-    "word": "Wertifloke",
-    "forbiddenWords": ["Naruto", "Fanfiction", "Waves", "Arise", "Ninja"]
-  },
-  {
-    "word": "William MacAskill",
-    "forbiddenWords": ["Effective", "Altruism", "Hours", "Give", "Singer"]
-  },
-  {
-    "word": "Wireheading",
-    "forbiddenWords": ["Pleasure", "Hedon", "Max", "Drug", "Stimulate"]
-  },
-  {
-    "word": "Word",
-    "forbiddenWords": ["Definition", "Noun", "Verb", "Speech", "Sentence"]
-  },
-  {
-    "word": "Working Memory",
-    "forbiddenWords": ["Short", "Store", "Brain", "Remember", "Capacity"]
-  },
-  {
-    "word": "Yudkowsky",
-    "forbiddenWords": ["Eliezer", "Bias", "LessWrong", "AI", "Sequences"]
-  },
-  {
-    "word": "Zeno's Paradox",
-    "forbiddenWords": ["Arrow", "Calculus", "Approach", "Reach", "Half"]
-  }
+    {
+        "word": "Ad Hominem",
+        "forbiddenWords": [
+            "Insult",
+            "Attack",
+            "Character",
+            "Personal",
+            "Latin"
+        ]
+    },
+    {
+        "word": "Adverse Selection",
+        "forbiddenWords": [
+            "Information",
+            "Choice",
+            "Against",
+            "Survive",
+            "Filter"
+        ]
+    },
+    {
+        "word": "Akrasia",
+        "forbiddenWords": [
+            "Nothing",
+            "Motivation",
+            "Act",
+            "Can",
+            "Fail"
+        ]
+    },
+    {
+        "word": "Algorithm",
+        "forbiddenWords": [
+            "Step",
+            "Decide",
+            "Process",
+            "Computer",
+            "Instruct"
+        ]
+    },
+    {
+        "word": "Alief",
+        "forbiddenWords": [
+            "God",
+            "Dragon",
+            "Truth",
+            "Belief",
+            "Santa"
+        ]
+    },
+    {
+        "word": "Alien",
+        "forbiddenWords": [
+            "Extraterrestial",
+            "World",
+            "Space",
+            "Green",
+            "Bug"
+        ]
+    },
+    {
+        "word": "Alignment",
+        "forbiddenWords": [
+            "Artificial",
+            "Goal",
+            "Paperclip",
+            "Research",
+            "Direction"
+        ]
+    },
+    {
+        "word": "Altruism",
+        "forbiddenWords": [
+            "Benefit",
+            "Help",
+            "Effective",
+            "MacAskill",
+            "Give"
+        ]
+    },
+    {
+        "word": "Amino Acid",
+        "forbiddenWords": [
+            "Protein",
+            "Building",
+            "Peptide",
+            "Carbohydrate",
+            "Nucleotide"
+        ]
+    },
+    {
+        "word": "Anarchy",
+        "forbiddenWords": [
+            "Free",
+            "Law",
+            "Individual",
+            "Government",
+            "Choice"
+        ]
+    },
+    {
+        "word": "Anchoring",
+        "forbiddenWords": [
+            "First",
+            "Number",
+            "Reference",
+            "Initial",
+            "Adjust"
+        ]
+    },
+    {
+        "word": "Anki",
+        "forbiddenWords": [
+            "Card",
+            "Space",
+            "Repeat",
+            "Memory",
+            "Flash"
+        ]
+    },
+    {
+        "word": "Anthropics",
+        "forbiddenWords": [
+            "Die",
+            "Live",
+            "Reason",
+            "Apocalypse",
+            "End"
+        ]
+    },
+    {
+        "word": "Anti-Inductive",
+        "forbiddenWords": [
+            "Stock",
+            "Date",
+            "Change",
+            "Compete",
+            "Phatic"
+        ]
+    },
+    {
+        "word": "Applause",
+        "forbiddenWords": [
+            "Clap",
+            "Good",
+            "Reward. Light",
+            "Theatre"
+        ]
+    },
+    {
+        "word": "Arbitrage",
+        "forbiddenWords": [
+            "Trade",
+            "Gain",
+            "Different",
+            "Market",
+            "Make"
+        ]
+    },
+    {
+        "word": "Argument",
+        "forbiddenWords": [
+            "Convince",
+            "Debate",
+            "Sway",
+            "Reasoned",
+            "Fight"
+        ]
+    },
+    {
+        "word": "Artificial General Intelligence (AGI)",
+        "forbiddenWords": [
+            "Human",
+            "Super",
+            "Intelligence",
+            "Learn",
+            "Machine"
+        ]
+    },
+    {
+        "word": "Asche's Conformity Experiment",
+        "forbiddenWords": [
+            "Group",
+            "Think",
+            "Agree",
+            "Story",
+            "Psychology"
+        ]
+    },
+    {
+        "word": "Atom",
+        "forbiddenWords": [
+            "Basic",
+            "Small",
+            "Nucleus",
+            "Force",
+            "Molecule "
+        ]
+    },
+    {
+        "word": "Aumann Agreement",
+        "forbiddenWords": [
+            "Difference",
+            "Agent",
+            "Know",
+            "Conform",
+            "Align"
+        ]
+    },
+    {
+        "word": "Autism",
+        "forbiddenWords": [
+            "Obsess",
+            "Awkward",
+            "Nerd",
+            "Sense",
+            "Weight"
+        ]
+    },
+    {
+        "word": "Availability Heuristic",
+        "forbiddenWords": [
+            "Memory",
+            "Recent",
+            "Easy",
+            "Example",
+            "Remember"
+        ]
+    },
+    {
+        "word": "Baby",
+        "forbiddenWords": [
+            "Infant",
+            "Gentle",
+            "Rock",
+            "Eat",
+            "Born"
+        ]
+    },
+    {
+        "word": "Backfire Effect",
+        "forbiddenWords": [
+            "Believe",
+            "Stronger",
+            "Evidence",
+            "Against",
+            "Contrary"
+        ]
+    },
+    {
+        "word": "Bandwidth",
+        "forbiddenWords": [
+            "Capacity",
+            "Data",
+            "Transfer",
+            "Speed",
+            "Process"
+        ]
+    },
+    {
+        "word": "Base Rate",
+        "forbiddenWords": [
+            "Population",
+            "Statistic",
+            "Frequency",
+            "Normal",
+            "Expect"
+        ]
+    },
+    {
+        "word": "Baseball",
+        "forbiddenWords": [
+            "Sport",
+            "Bat",
+            "Hit",
+            "Pitch",
+            "Umpire"
+        ]
+    },
+    {
+        "word": "Bayes Theorem",
+        "forbiddenWords": [
+            "Statistic",
+            "Reverend",
+            "Update",
+            "Prior",
+            "Posterior"
+        ]
+    },
+    {
+        "word": "Bayesian",
+        "forbiddenWords": [
+            "Probability",
+            "Statistics",
+            "Inference",
+            "Update",
+            "Prior"
+        ]
+    },
+    {
+        "word": "Bayesian Inference",
+        "forbiddenWords": [
+            "Probability",
+            "Update",
+            "Posterior",
+            "Prior",
+            "Belief"
+        ]
+    },
+    {
+        "word": "Belief",
+        "forbiddenWords": [
+            "God",
+            "Dragon",
+            "Truth",
+            "Alief",
+            "Santa"
+        ]
+    },
+    {
+        "word": "Bias",
+        "forbiddenWords": [
+            "Lean",
+            "Brain",
+            "Flaw",
+            "System",
+            "Unconscious"
+        ]
+    },
+    {
+        "word": "Bitcoin",
+        "forbiddenWords": [
+            "Digital",
+            "Currency",
+            "Hash",
+            "Solve",
+            "Miner"
+        ]
+    },
+    {
+        "word": "Black Swan",
+        "forbiddenWords": [
+            "Rare",
+            "Event",
+            "Impact",
+            "Unexpected",
+            "Taleb"
+        ]
+    },
+    {
+        "word": "Blog",
+        "forbiddenWords": [
+            "Essay",
+            "Internet",
+            "Write",
+            "Codex",
+            "Word"
+        ]
+    },
+    {
+        "word": "Book",
+        "forbiddenWords": [
+            "Read",
+            "Page",
+            "Print",
+            "Study",
+            "Shelf"
+        ]
+    },
+    {
+        "word": "Bottleneck",
+        "forbiddenWords": [
+            "Limit",
+            "Slow",
+            "Constraint",
+            "Resource",
+            "Block"
+        ]
+    },
+    {
+        "word": "Bounded Rationality",
+        "forbiddenWords": [
+            "Decision",
+            "Limited",
+            "Heuristic",
+            "Constraint",
+            "Optimal"
+        ]
+    },
+    {
+        "word": "Brain",
+        "forbiddenWords": [
+            "Cranial",
+            "Head",
+            "Nerve",
+            "Think",
+            "Skull"
+        ]
+    },
+    {
+        "word": "Bystander Effect",
+        "forbiddenWords": [
+            "Nothing",
+            "Someone",
+            "Ask",
+            "Act",
+            "Hesitate"
+        ]
+    },
+    {
+        "word": "Calibration",
+        "forbiddenWords": [
+            "Measure",
+            "Error",
+            "Bayes",
+            "Predict",
+            "Aim"
+        ]
+    },
+    {
+        "word": "Catastrophizing",
+        "forbiddenWords": [
+            "Assume",
+            "Bad",
+            "Terrible",
+            "Predict",
+            "Flaw"
+        ]
+    },
+    {
+        "word": "Categorical Imperative",
+        "forbiddenWords": [
+            "Kant",
+            "Rule",
+            "Universal",
+            "Ethics",
+            "Deontology"
+        ]
+    },
+    {
+        "word": "Cell",
+        "forbiddenWords": [
+            "Single",
+            "Organism",
+            "Multi",
+            "Wall",
+            "Small"
+        ]
+    },
+    {
+        "word": "CFAR",
+        "forbiddenWords": [
+            "Center",
+            "Applied",
+            "Rationality",
+            "Julia Galef"
+        ]
+    },
+    {
+        "word": "Change",
+        "forbiddenWords": [
+            "Improve",
+            "Different",
+            "Constant",
+            "Obama",
+            "Spare"
+        ]
+    },
+    {
+        "word": "Chesterton's Fence",
+        "forbiddenWords": [
+            "Same",
+            "Leave",
+            "Change",
+            "Warning",
+            "Boundary"
+        ]
+    },
+    {
+        "word": "Cognitive Dissonance",
+        "forbiddenWords": [
+            "Conflict",
+            "Belief",
+            "Psychology",
+            "Discomfort",
+            "Mind"
+        ]
+    },
+    {
+        "word": "Cognitive Load",
+        "forbiddenWords": [
+            "Mental",
+            "Effort",
+            "Task",
+            "Strain",
+            "Brain"
+        ]
+    },
+    {
+        "word": "Coherent Extrapolated Volition",
+        "forbiddenWords": [
+            "Yudkowsky",
+            "AI",
+            "future",
+            "human values"
+        ]
+    },
+    {
+        "word": "Command Economy",
+        "forbiddenWords": [
+            "Communism",
+            "Russia",
+            "China",
+            "Plan",
+            "Order"
+        ]
+    },
+    {
+        "word": "Commensurable",
+        "forbiddenWords": [
+            "Trade",
+            "Exchange",
+            "Value",
+            "Same",
+            "Equal"
+        ]
+    },
+    {
+        "word": "Common Knowledge",
+        "forbiddenWords": [
+            "Every",
+            "Sense",
+            "Simple",
+            "Predict",
+            "Information"
+        ]
+    },
+    {
+        "word": "Communism",
+        "forbiddenWords": [
+            "Russia",
+            "China",
+            "Marx",
+            "Ability",
+            "Economy"
+        ]
+    },
+    {
+        "word": "Comparative Advantage",
+        "forbiddenWords": [
+            "Good",
+            "Economic",
+            "Better",
+            "Each",
+            "Trade"
+        ]
+    },
+    {
+        "word": "Compersion",
+        "forbiddenWords": [
+            "Polyamory",
+            "Metamour",
+            "Feelings",
+            "Happiness",
+            "Love"
+        ]
+    },
+    {
+        "word": "Computer",
+        "forbiddenWords": [
+            "Think",
+            "Electron",
+            "Top",
+            "Math",
+            "Monitor"
+        ]
+    },
+    {
+        "word": "Confirmation Bias",
+        "forbiddenWords": [
+            "Evidence",
+            "Filter",
+            "Belief",
+            "Search",
+            "Agree"
+        ]
+    },
+    {
+        "word": "Confucianism",
+        "forbiddenWords": [
+            "Order",
+            "Harmony",
+            "Tradition",
+            "Family",
+            "Pious"
+        ]
+    },
+    {
+        "word": "Confusion",
+        "forbiddenWords": [
+            "Certain",
+            "Baffle",
+            "Sure",
+            "Confident",
+            "Mystery"
+        ]
+    },
+    {
+        "word": "Conjunction",
+        "forbiddenWords": [
+            "Words",
+            "Combine",
+            "Together",
+            "Both",
+            "Star"
+        ]
+    },
+    {
+        "word": "Consequentialism",
+        "forbiddenWords": [
+            "Ends",
+            "Utility",
+            "Results",
+            "World",
+            "Moral"
+        ]
+    },
+    {
+        "word": "Conspiracy",
+        "forbiddenWords": [
+            "Bayesian",
+            "Secret",
+            "Group",
+            "People",
+            "Theory"
+        ]
+    },
+    {
+        "word": "Context",
+        "forbiddenWords": [
+            "Object",
+            "Subject",
+            "Surrounding",
+            "Subtext",
+            "Attention"
+        ]
+    },
+    {
+        "word": "Control Group",
+        "forbiddenWords": [
+            "Experiment",
+            "Compare",
+            "Base",
+            "Normal",
+            "Study"
+        ]
+    },
+    {
+        "word": "Correlation",
+        "forbiddenWords": [
+            "Statistic",
+            "Cause",
+            "Similar",
+            "Same",
+            "Related"
+        ]
+    },
+    {
+        "word": "Cosplay",
+        "forbiddenWords": [
+            "Con",
+            "Costume",
+            "Body",
+            "Paint",
+            "Pax"
+        ]
+    },
+    {
+        "word": "Counterfactual",
+        "forbiddenWords": [
+            "If",
+            "Then",
+            "Alternative",
+            "Possible",
+            "Reality"
+        ]
+    },
+    {
+        "word": "Crocker's Rules",
+        "forbiddenWords": [
+            "Information",
+            "Rude",
+            "Protocol",
+            "Communicate",
+            "Tell"
+        ]
+    },
+    {
+        "word": "Cryogenics",
+        "forbiddenWords": [
+            "Cold",
+            "Freeze",
+            "Physics",
+            "Low",
+            "Science"
+        ]
+    },
+    {
+        "word": "Cryonics",
+        "forbiddenWords": [
+            "Freezing",
+            "Preservation",
+            "Death",
+            "Temperature",
+            "Future"
+        ]
+    },
+    {
+        "word": "Cult",
+        "forbiddenWords": [
+            "Hood",
+            "Cloak",
+            "Koolaid",
+            "Church",
+            "Accuse"
+        ]
+    },
+    {
+        "word": "Curiosity",
+        "forbiddenWords": [
+            "Wonder",
+            "Mystery",
+            "Find",
+            "Answer",
+            "Cat"
+        ]
+    },
+    {
+        "word": "Dakka",
+        "forbiddenWords": [
+            "More",
+            "Orc",
+            "Light",
+            "Hard",
+            "Push"
+        ]
+    },
+    {
+        "word": "Dath Ilan",
+        "forbiddenWords": [
+            "Eliezer",
+            "World",
+            "Rational",
+            "Market",
+            "Default"
+        ]
+    },
+    {
+        "word": "Death",
+        "forbiddenWords": [
+            "Bad",
+            "End",
+            "Stop",
+            "Mortal",
+            "Live"
+        ]
+    },
+    {
+        "word": "Decision",
+        "forbiddenWords": [
+            "Theory",
+            "Choice",
+            "Make",
+            "Agent",
+            "Hard"
+        ]
+    },
+    {
+        "word": "Decision Theory",
+        "forbiddenWords": [
+            "Choices",
+            "Rational",
+            "Outcome",
+            "Payoff",
+            "Preference"
+        ]
+    },
+    {
+        "word": "Dendrite",
+        "forbiddenWords": [
+            "Neuron",
+            "Axon",
+            "Input",
+            "Synapse",
+            "Brain"
+        ]
+    },
+    {
+        "word": "Deontology",
+        "forbiddenWords": [
+            "Rule",
+            "Religion",
+            "Kill",
+            "Instruct",
+            "Philosophy"
+        ]
+    },
+    {
+        "word": "Depression",
+        "forbiddenWords": [
+            "Hedon",
+            "Sad",
+            "Bored",
+            "Suicide",
+            "Nothing"
+        ]
+    },
+    {
+        "word": "Dice",
+        "forbiddenWords": [
+            "Die",
+            "Roll",
+            "Game",
+            "Random",
+            "Six"
+        ]
+    },
+    {
+        "word": "Dojo",
+        "forbiddenWords": [
+            "Martial",
+            "Studio",
+            "Art",
+            "Practice",
+            "Train"
+        ]
+    },
+    {
+        "word": "Double Crux",
+        "forbiddenWords": [
+            "Debate",
+            "Argument",
+            "Collaborate",
+            "Truth",
+            "Pair"
+        ]
+    },
+    {
+        "word": "Dragon",
+        "forbiddenWords": [
+            "Lizard",
+            "Fire",
+            "Wing",
+            "Dungeon",
+            "Smaug"
+        ]
+    },
+    {
+        "word": "Drowning Child",
+        "forbiddenWords": [
+            "Coat",
+            "Pay",
+            "Altruism",
+            "Distance",
+            "Singer"
+        ]
+    },
+    {
+        "word": "Dunbar's Number",
+        "forbiddenWords": [
+            "Social",
+            "Relationships",
+            "Friends",
+            "Cognitive",
+            "Limit"
+        ]
+    },
+    {
+        "word": "Dunning-Kruger Effect",
+        "forbiddenWords": [
+            "Know",
+            "Confident",
+            "Correct",
+            "Relative",
+            "Skill"
+        ]
+    },
+    {
+        "word": "Dust",
+        "forbiddenWords": [
+            "Dirt",
+            "Speck",
+            "Torture",
+            "Eye",
+            "Feather"
+        ]
+    },
+    {
+        "word": "Dyson Sphere",
+        "forbiddenWords": [
+            "Sun",
+            "Power",
+            "Technology",
+            "Dam",
+            "Circle"
+        ]
+    },
+    {
+        "word": "Economy",
+        "forbiddenWords": [
+            "Command",
+            "Market",
+            "Trade",
+            "Social",
+            "Money"
+        ]
+    },
+    {
+        "word": "Effective Altruism",
+        "forbiddenWords": [
+            "Charity",
+            "Doing good",
+            "Impact",
+            "Resources",
+            "Philanthropy"
+        ]
+    },
+    {
+        "word": "Efficient Market Hypothesis",
+        "forbiddenWords": [
+            "Price",
+            "Predict",
+            "Correct",
+            "Dollar",
+            "Bill"
+        ]
+    },
+    {
+        "word": "Egoism",
+        "forbiddenWords": [
+            "Me",
+            "I",
+            "Believe",
+            "Value",
+            "Philosophy"
+        ]
+    },
+    {
+        "word": "Eliezer Yudkowsky",
+        "forbiddenWords": [
+            "Rationality",
+            "Artificial",
+            "Intelligent",
+            "Wrong",
+            "Dath Ilan"
+        ]
+    },
+    {
+        "word": "Empiricism",
+        "forbiddenWords": [
+            "Science",
+            "Bacon",
+            "Discover",
+            "Test",
+            "Experiment"
+        ]
+    },
+    {
+        "word": "Epistemic",
+        "forbiddenWords": [
+            "Knowledge",
+            "Belief",
+            "Justified",
+            "Rational",
+            "Uncertainty"
+        ]
+    },
+    {
+        "word": "Epistemology",
+        "forbiddenWords": [
+            "Theory",
+            "Know",
+            "Belief",
+            "Status",
+            "Fact "
+        ]
+    },
+    {
+        "word": "Equilibrium",
+        "forbiddenWords": [
+            "Balance",
+            "Adequate",
+            "Economic",
+            "Nash",
+            "Stable"
+        ]
+    },
+    {
+        "word": "Ethics",
+        "forbiddenWords": [
+            "Moral",
+            "Rule",
+            "Philosophy",
+            "Religion",
+            "Deontology"
+        ]
+    },
+    {
+        "word": "Eudaimonia",
+        "forbiddenWords": [
+            "Happiness",
+            "Flourish",
+            "Aristotle",
+            "Goal",
+            "Life"
+        ]
+    },
+    {
+        "word": "Everett Branch",
+        "forbiddenWords": [
+            "Quantum",
+            "Possible",
+            "Alternate",
+            "Multi",
+            "Universe"
+        ]
+    },
+    {
+        "word": "Evidence",
+        "forbiddenWords": [
+            "Proof",
+            "Science",
+            "Empirical",
+            "Data",
+            "Test"
+        ]
+    },
+    {
+        "word": "Existential",
+        "forbiddenWords": [
+            "Risk",
+            "Exist",
+            "Extinct",
+            "Purpose",
+            "Survive"
+        ]
+    },
+    {
+        "word": "Existential Risk",
+        "forbiddenWords": [
+            "Extinction",
+            "Humanity",
+            "Global",
+            "Catastrophe",
+            "Threat"
+        ]
+    },
+    {
+        "word": "Expected Utility",
+        "forbiddenWords": [
+            "Calculate",
+            "Value",
+            "Choice",
+            "Risk",
+            "Outcome"
+        ]
+    },
+    {
+        "word": "Expected Value",
+        "forbiddenWords": [
+            "Average",
+            "Outcome",
+            "Probability",
+            "Calculate",
+            "Future"
+        ]
+    },
+    {
+        "word": "Externality",
+        "forbiddenWords": [
+            "Effect",
+            "Cost",
+            "Benefit",
+            "Market",
+            "Unintended"
+        ]
+    },
+    {
+        "word": "Fallacy",
+        "forbiddenWords": [
+            "Flaw",
+            "Reason",
+            "Logic",
+            "Debate",
+            "Cheat"
+        ]
+    },
+    {
+        "word": "Falsifiability",
+        "forbiddenWords": [
+            "Popper",
+            "Test",
+            "Prove",
+            "Wrong",
+            "Science"
+        ]
+    },
+    {
+        "word": "Fanfiction",
+        "forbiddenWords": [
+            "Write",
+            "Fake",
+            "Amatuer",
+            "Methods",
+            "Archive"
+        ]
+    },
+    {
+        "word": "Feedback Loop",
+        "forbiddenWords": [
+            "Cycle",
+            "Return",
+            "System",
+            "Effect",
+            "Cause"
+        ]
+    },
+    {
+        "word": "Fermi Paradox",
+        "forbiddenWords": [
+            "Aliens",
+            "Life",
+            "Universe",
+            "Exist",
+            "Star"
+        ]
+    },
+    {
+        "word": "Filter Bubble",
+        "forbiddenWords": [
+            "Politics",
+            "Culture",
+            "Different",
+            "Probable",
+            "Sort"
+        ]
+    },
+    {
+        "word": "Fire",
+        "forbiddenWords": [
+            "Hot",
+            "Wood",
+            "Cook",
+            "Camp",
+            "Burn"
+        ]
+    },
+    {
+        "word": "First Principles",
+        "forbiddenWords": [
+            "Basic",
+            "Foundation",
+            "Ground",
+            "Start",
+            "Fundamental"
+        ]
+    },
+    {
+        "word": "Flynn Effect",
+        "forbiddenWords": [
+            "Iq",
+            "Grow",
+            "Time",
+            "History",
+            "Smart"
+        ]
+    },
+    {
+        "word": "Free Will",
+        "forbiddenWords": [
+            "Choice",
+            "Determine",
+            "Quantum",
+            "Mechanic",
+            "Human"
+        ]
+    },
+    {
+        "word": "Friendly AI",
+        "forbiddenWords": [
+            "Safety",
+            "Align",
+            "Goal",
+            "Risk",
+            "Human"
+        ]
+    },
+    {
+        "word": "Futarchy",
+        "forbiddenWords": [
+            "Vote",
+            "Money",
+            "Predict",
+            "Robin Hanson",
+            "Women "
+        ]
+    },
+    {
+        "word": "Game",
+        "forbiddenWords": [
+            "Board",
+            "Sport",
+            "Cheat",
+            "Ready",
+            "Play"
+        ]
+    },
+    {
+        "word": "Gell-Man Amnesia",
+        "forbiddenWords": [
+            "News",
+            "Know",
+            "Field",
+            "Michael Chrichton",
+            "Error"
+        ]
+    },
+    {
+        "word": "Gene",
+        "forbiddenWords": [
+            "Dna",
+            "Inherit",
+            "Parent",
+            "Mendelian",
+            "Punnet Square"
+        ]
+    },
+    {
+        "word": "Givewell",
+        "forbiddenWords": [
+            "Charity",
+            "Effective",
+            "Altruism",
+            "Donate",
+            "Cost "
+        ]
+    },
+    {
+        "word": "Glowfic",
+        "forbiddenWords": [
+            "Bell",
+            "Joker",
+            "Fanfiction",
+            "Silmarillion",
+            "Alicorn"
+        ]
+    },
+    {
+        "word": "Godwin's Law",
+        "forbiddenWords": [
+            "Nazi",
+            "Online",
+            "Argument",
+            "Long",
+            "Compare"
+        ]
+    },
+    {
+        "word": "Goodhart's Law",
+        "forbiddenWords": [
+            "Optimize",
+            "Measure",
+            "Target",
+            "Performance",
+            "Goal"
+        ]
+    },
+    {
+        "word": "Grabby Aliens",
+        "forbiddenWords": [
+            "Robin Hanson",
+            "Extraterrestrial",
+            "Galaxy",
+            "UFO"
+        ]
+    },
+    {
+        "word": "Gravity",
+        "forbiddenWords": [
+            "Fall",
+            "Drop",
+            "Weigh",
+            "Newton",
+            "Apple"
+        ]
+    },
+    {
+        "word": "Great Filter",
+        "forbiddenWords": [
+            "Fermi Paradox",
+            "Extinction",
+            "Life",
+            "Civilizations"
+        ]
+    },
+    {
+        "word": "Gresham's Law",
+        "forbiddenWords": [
+            "Money",
+            "Value",
+            "Currency",
+            "Bad",
+            "Drive"
+        ]
+    },
+    {
+        "word": "Guilt",
+        "forbiddenWords": [
+            "Shame",
+            "Fail",
+            "Wrong",
+            "Trip",
+            "Crime"
+        ]
+    },
+    {
+        "word": "Gödel's Incompleteness",
+        "forbiddenWords": [
+            "Theorem",
+            "Mathematics",
+            "Logic",
+            "Provable"
+        ]
+    },
+    {
+        "word": "Halo Effect",
+        "forbiddenWords": [
+            "Appearance",
+            "Judge",
+            "Bias",
+            "Horns",
+            "Attractive"
+        ]
+    },
+    {
+        "word": "Hamming",
+        "forbiddenWords": [
+            "Question",
+            "Important",
+            "Work",
+            "Richard",
+            "Ask"
+        ]
+    },
+    {
+        "word": "Hanlon's Razor",
+        "forbiddenWords": [
+            "Stupidity",
+            "Malice",
+            "Human",
+            "Behave",
+            "Attribute"
+        ]
+    },
+    {
+        "word": "Hedon",
+        "forbiddenWords": [
+            "Good",
+            "Value",
+            "Goal",
+            "Util",
+            "Pleasure"
+        ]
+    },
+    {
+        "word": "Heresy",
+        "forbiddenWords": [
+            "Church",
+            "Schism",
+            "Inquisition",
+            "Difference",
+            "Burn"
+        ]
+    },
+    {
+        "word": "Horns Effect",
+        "forbiddenWords": [
+            "Appearance",
+            "Judge",
+            "Bias",
+            "Halo",
+            "Attractive"
+        ]
+    },
+    {
+        "word": "Humility",
+        "forbiddenWords": [
+            "Humble",
+            "Wise",
+            "Proud",
+            "Cautious",
+            " False"
+        ]
+    },
+    {
+        "word": "Hyperbolic Discounting",
+        "forbiddenWords": [
+            "Future",
+            "Present",
+            "Economic",
+            "Preference",
+            "Time"
+        ]
+    },
+    {
+        "word": "Hyperreality",
+        "forbiddenWords": [
+            "Simulacra",
+            "Baudrillard",
+            "Fake",
+            "Reality",
+            "Image"
+        ]
+    },
+    {
+        "word": "Hypothesis",
+        "forbiddenWords": [
+            "Guess",
+            "Theory",
+            "Prediction",
+            "Experiment",
+            "Assumption"
+        ]
+    },
+    {
+        "word": "Ice",
+        "forbiddenWords": [
+            "Water",
+            "Cold",
+            "Freeze",
+            "Winter",
+            "Snow"
+        ]
+    },
+    {
+        "word": "Illusion",
+        "forbiddenWords": [
+            "Believe",
+            "False",
+            "Deception",
+            "Image",
+            "Fake"
+        ]
+    },
+    {
+        "word": "Illusion of Transparency",
+        "forbiddenWords": [
+            "Understand",
+            "Thought",
+            "Mind",
+            "Know",
+            "Explain"
+        ]
+    },
+    {
+        "word": "Impermanence",
+        "forbiddenWords": [
+            "Buddhism",
+            "Suffering",
+            "Self",
+            "Characteristic",
+            "Thre"
+        ]
+    },
+    {
+        "word": "Incentive",
+        "forbiddenWords": [
+            "Bribe",
+            "Pay",
+            "Reason",
+            "Act",
+            "Gradient"
+        ]
+    },
+    {
+        "word": "Index Card",
+        "forbiddenWords": [
+            "Paper",
+            "Note",
+            "Pocket",
+            "Flash",
+            "Sky"
+        ]
+    },
+    {
+        "word": "Inferential Distance",
+        "forbiddenWords": [
+            "Gap",
+            "Difference",
+            "Teach",
+            "Share",
+            "Know"
+        ]
+    },
+    {
+        "word": "Infinity",
+        "forbiddenWords": [
+            "Number",
+            "Count",
+            "Calculus",
+            "Lightyear",
+            "Area"
+        ]
+    },
+    {
+        "word": "Infohazard",
+        "forbiddenWords": [
+            "Spoiler",
+            "Hazard",
+            "Damage",
+            "Harm",
+            "Know"
+        ]
+    },
+    {
+        "word": "Information Cascade",
+        "forbiddenWords": [
+            "Follow",
+            "Crowd",
+            "Decision",
+            "Copy",
+            "Chain"
+        ]
+    },
+    {
+        "word": "Insane",
+        "forbiddenWords": [
+            "Crazy",
+            "Defense",
+            "Nuts",
+            "Strange",
+            "Clinical"
+        ]
+    },
+    {
+        "word": "Instrumental",
+        "forbiddenWords": [
+            "Goal",
+            "Means",
+            "Ends",
+            "Purpose",
+            "Value"
+        ]
+    },
+    {
+        "word": "Instrumental Value",
+        "forbiddenWords": [
+            "Want",
+            "Accomplish",
+            "Intermediate",
+            "Money",
+            "Goal"
+        ]
+    },
+    {
+        "word": "Intelligent",
+        "forbiddenWords": [
+            "Smart",
+            "Artificial",
+            "Clever",
+            "Brain",
+            "Human"
+        ]
+    },
+    {
+        "word": "Internet",
+        "forbiddenWords": [
+            "Connect",
+            "Computer",
+            "Server",
+            "Web",
+            "Communicate"
+        ]
+    },
+    {
+        "word": "Iteration",
+        "forbiddenWords": [
+            "Again",
+            "Loop",
+            "Repeat",
+            "Count",
+            "Recur"
+        ]
+    },
+    {
+        "word": "Kabbalah",
+        "forbiddenWords": [
+            "Jewish",
+            "Song",
+            "Torah",
+            "Word",
+            "Bible"
+        ]
+    },
+    {
+        "word": "Kelsey Piper",
+        "forbiddenWords": [
+            "Caring",
+            "Money",
+            "Journal",
+            "Glowfic",
+            "Elf"
+        ]
+    },
+    {
+        "word": "Kolmogorov Complexity",
+        "forbiddenWords": [
+            "Computer",
+            "Short",
+            "Minimum",
+            "Information",
+            "Science"
+        ]
+    },
+    {
+        "word": "Latex",
+        "forbiddenWords": [
+            "Type",
+            "Paper",
+            "Format",
+            "Rubber",
+            "Suit"
+        ]
+    },
+    {
+        "word": "LessWrong",
+        "forbiddenWords": [
+            "More",
+            "Right",
+            "Rational",
+            "Sequence",
+            "Bias"
+        ]
+    },
+    {
+        "word": "Ligament",
+        "forbiddenWords": [
+            "Tendon",
+            "Bone",
+            "Knee",
+            "Connect",
+            "Joint"
+        ]
+    },
+    {
+        "word": "Lindy Effect",
+        "forbiddenWords": [
+            "Time",
+            "Survive",
+            "Future",
+            "Old",
+            "Expect"
+        ]
+    },
+    {
+        "word": "Litany",
+        "forbiddenWords": [
+            "Gendlin",
+            "Chant",
+            "Jai",
+            "Tarski",
+            "Prayer"
+        ]
+    },
+    {
+        "word": "Literal",
+        "forbiddenWords": [
+            "Exact",
+            "Exaggerate",
+            "True",
+            "Figure",
+            "Quote"
+        ]
+    },
+    {
+        "word": "Lizardman's Constant",
+        "forbiddenWords": [
+            "Statistic",
+            "Survey",
+            "Wrong",
+            "Minority",
+            "Troll"
+        ]
+    },
+    {
+        "word": "Loss Aversion",
+        "forbiddenWords": [
+            "Bias",
+            "Gain",
+            "Fail",
+            "Balance",
+            "Hurt"
+        ]
+    },
+    {
+        "word": "Lumen",
+        "forbiddenWords": [
+            "Light",
+            "Bright",
+            "Bulb",
+            "Depression",
+            "Season"
+        ]
+    },
+    {
+        "word": "Magesterium",
+        "forbiddenWords": [
+            "Separate",
+            "Evidence",
+            "Excuse",
+            "Divine",
+            "Different"
+        ]
+    },
+    {
+        "word": "Magic",
+        "forbiddenWords": [
+            "Wand",
+            "Explain",
+            "Fantasy",
+            "Science",
+            "Spell"
+        ]
+    },
+    {
+        "word": "Malaria",
+        "forbiddenWords": [
+            "Net",
+            "Against",
+            "Foundation",
+            "Disease",
+            "Mosquito"
+        ]
+    },
+    {
+        "word": "Malthus",
+        "forbiddenWords": [
+            "Population",
+            "Food",
+            "Agriculture",
+            "Revolution",
+            "Conclusion"
+        ]
+    },
+    {
+        "word": "Marginal Cost",
+        "forbiddenWords": [
+            "Pay",
+            "Decrease",
+            "More",
+            "Next",
+            "Worth"
+        ]
+    },
+    {
+        "word": "Market Economy",
+        "forbiddenWords": [
+            "Trade",
+            "Good",
+            "Value",
+            "Merchant",
+            "Capital"
+        ]
+    },
+    {
+        "word": "Mars",
+        "forbiddenWords": [
+            "Planet",
+            "Red",
+            "War",
+            "Four",
+            "Elon Musk"
+        ]
+    },
+    {
+        "word": "Math",
+        "forbiddenWords": [
+            "Equation",
+            "Add",
+            "Subtract",
+            "Multiply",
+            "Divide"
+        ]
+    },
+    {
+        "word": "Mealsquare",
+        "forbiddenWords": [
+            "Food",
+            "Taste",
+            "Optimal",
+            "Biscuit",
+            "Nutrition "
+        ]
+    },
+    {
+        "word": "Meditation",
+        "forbiddenWords": [
+            "Sit",
+            "Concentrate",
+            "Empty",
+            "Monk",
+            "Ritual"
+        ]
+    },
+    {
+        "word": "Melatonin",
+        "forbiddenWords": [
+            "Sleep",
+            "Hormone",
+            "Rest",
+            "Dose",
+            "Dream"
+        ]
+    },
+    {
+        "word": "Meme",
+        "forbiddenWords": [
+            "Idea",
+            "Internet",
+            "Spread",
+            "Repeat",
+            "Gif"
+        ]
+    },
+    {
+        "word": "Memetics",
+        "forbiddenWords": [
+            "Meme",
+            "Culture",
+            "Spread",
+            "Replicate",
+            "Idea"
+        ]
+    },
+    {
+        "word": "Meta",
+        "forbiddenWords": [
+            "WhatsApp",
+            "Physics",
+            "Facebook",
+            "Quest",
+            "Ethics"
+        ]
+    },
+    {
+        "word": "Metacognition",
+        "forbiddenWords": [
+            "Think",
+            "About",
+            "Mind",
+            "Reflect",
+            "Aware"
+        ]
+    },
+    {
+        "word": "Milgram Experiment",
+        "forbiddenWords": [
+            "Shock",
+            "Order",
+            "German",
+            "Dial",
+            "Science"
+        ]
+    },
+    {
+        "word": "Modafinal",
+        "forbiddenWords": [
+            "Stimulent",
+            "Drug",
+            "Concentrate",
+            "Focus",
+            "Cat"
+        ]
+    },
+    {
+        "word": "Modular",
+        "forbiddenWords": [
+            "Reversible",
+            "Cube",
+            "Furniture",
+            "Function",
+            "Change"
+        ]
+    },
+    {
+        "word": "Modus Ponens",
+        "forbiddenWords": [
+            "One",
+            "Conclude",
+            "Logic",
+            "Therefore",
+            "Another"
+        ]
+    },
+    {
+        "word": "Moloch",
+        "forbiddenWords": [
+            "Coordination",
+            "Competition",
+            "Scott/SSC/ACX",
+            "Incentives",
+            "Meditations"
+        ]
+    },
+    {
+        "word": "Money",
+        "forbiddenWords": [
+            "Caring",
+            "Unit",
+            "Account",
+            "Exchange",
+            "Currency"
+        ]
+    },
+    {
+        "word": "Moon",
+        "forbiddenWords": [
+            "Rock",
+            "Tide",
+            "Luna",
+            "Month",
+            "Space"
+        ]
+    },
+    {
+        "word": "Moore's Law",
+        "forbiddenWords": [
+            "Science",
+            "Transistor",
+            "Computer",
+            "Exponent",
+            "Growth"
+        ]
+    },
+    {
+        "word": "Moral Relativism",
+        "forbiddenWords": [
+            "Subjective",
+            "Culture",
+            "Ethics",
+            "Belief",
+            "Right"
+        ]
+    },
+    {
+        "word": "Morality",
+        "forbiddenWords": [
+            "Ethics",
+            "Good",
+            "Religion",
+            "Agree",
+            "Bad"
+        ]
+    },
+    {
+        "word": "Motte And Bailey",
+        "forbiddenWords": [
+            "Castle",
+            "Field",
+            "Retreat",
+            "Frustrate",
+            "Fortification"
+        ]
+    },
+    {
+        "word": "Murphy-Jitsu",
+        "forbiddenWords": [
+            "Wrong",
+            "Plan",
+            "Expect",
+            "Time",
+            "Fail"
+        ]
+    },
+    {
+        "word": "Nanotechnology",
+        "forbiddenWords": [
+            "Small",
+            "Robot",
+            "Swarm",
+            "Dressler",
+            "Machine"
+        ]
+    },
+    {
+        "word": "Nash Equilibrium",
+        "forbiddenWords": [
+            "Game",
+            "Theory",
+            "Stable",
+            "Strategy",
+            "Solution"
+        ]
+    },
+    {
+        "word": "Negentropy",
+        "forbiddenWords": [
+            "Reverse",
+            "Order",
+            "Structure",
+            "Universe",
+            "Fade"
+        ]
+    },
+    {
+        "word": "Network Effect",
+        "forbiddenWords": [
+            "Value",
+            "Users",
+            "Facebook",
+            "Social",
+            "Increase"
+        ]
+    },
+    {
+        "word": "Newcomb's Paradox",
+        "forbiddenWords": [
+            "Box",
+            "One",
+            "Two",
+            "Omega",
+            "Dollar"
+        ]
+    },
+    {
+        "word": "Nihilism",
+        "forbiddenWords": [
+            "Nothing",
+            "Matter",
+            "Void",
+            "Bleak",
+            "Empty"
+        ]
+    },
+    {
+        "word": "Objectivism",
+        "forbiddenWords": [
+            "Ayn Rand",
+            "Atlas",
+            "Greed",
+            "Selfish",
+            "Absolute"
+        ]
+    },
+    {
+        "word": "Obsession",
+        "forbiddenWords": [
+            "Mind",
+            "Fill",
+            "Fixate",
+            "Think",
+            "Compulse"
+        ]
+    },
+    {
+        "word": "Occam's Razor",
+        "forbiddenWords": [
+            "Simplicity",
+            "Explanation",
+            "Hypothesis",
+            "Complexity",
+            "Principle"
+        ]
+    },
+    {
+        "word": "Opportunity Cost",
+        "forbiddenWords": [
+            "Alternative",
+            "Give",
+            "Choice",
+            "Lose",
+            "Instead"
+        ]
+    },
+    {
+        "word": "Optimize",
+        "forbiddenWords": [
+            "Better",
+            "Grow",
+            "Improve",
+            "Number",
+            "Hill"
+        ]
+    },
+    {
+        "word": "Orthogonality Thesis",
+        "forbiddenWords": [
+            "AI",
+            "Goal",
+            "Objective",
+            "Intelligence",
+            "Align"
+        ]
+    },
+    {
+        "word": "Outside View",
+        "forbiddenWords": [
+            "Base",
+            "Reference",
+            "Class",
+            "Group",
+            "Predict"
+        ]
+    },
+    {
+        "word": "Overton Window",
+        "forbiddenWords": [
+            "Normal",
+            "Expected",
+            "Range",
+            "Reasonable",
+            "Predict"
+        ]
+    },
+    {
+        "word": "Ozymandias",
+        "forbiddenWords": [
+            "Pillar",
+            "Stone",
+            "Poem",
+            "Brennan",
+            "Despair"
+        ]
+    },
+    {
+        "word": "P-Zombie",
+        "forbiddenWords": [
+            "Free",
+            "Will",
+            "Philosophy",
+            "Same",
+            "Human"
+        ]
+    },
+    {
+        "word": "Paperclip",
+        "forbiddenWords": [
+            "Word",
+            "Metal",
+            "Artificial",
+            "Goal",
+            "Value"
+        ]
+    },
+    {
+        "word": "Paperclip Maximizer",
+        "forbiddenWords": [
+            "Value",
+            "AI",
+            "Optimize",
+            "Goal",
+            "Utility"
+        ]
+    },
+    {
+        "word": "Pareto Efficiency",
+        "forbiddenWords": [
+            "Optimal",
+            "Better",
+            "Improve",
+            "Trade",
+            "Value"
+        ]
+    },
+    {
+        "word": "Pareto Principle",
+        "forbiddenWords": [
+            "80/20 rule",
+            "Efficiency",
+            "Distribution",
+            "Economics",
+            "Productivity"
+        ]
+    },
+    {
+        "word": "Pascal's Mugging",
+        "forbiddenWords": [
+            "God",
+            "Bet",
+            "Infinite",
+            "Odds",
+            "Convert"
+        ]
+    },
+    {
+        "word": "Petrov",
+        "forbiddenWords": [
+            "Nuclear",
+            "Alarm",
+            "Russian",
+            "Cold",
+            "Day"
+        ]
+    },
+    {
+        "word": "Philosophy",
+        "forbiddenWords": [
+            "Think",
+            "Abstract",
+            "Study",
+            " Wisdom",
+            "Moral"
+        ]
+    },
+    {
+        "word": "Phlogiston",
+        "forbiddenWords": [
+            "Element",
+            "Fire",
+            "Combust",
+            "Greek",
+            "Science"
+        ]
+    },
+    {
+        "word": "Pica",
+        "forbiddenWords": [
+            "Ice",
+            "Iron",
+            "Goal",
+            "Signal",
+            "Disorder"
+        ]
+    },
+    {
+        "word": "Placebo",
+        "forbiddenWords": [
+            "Medicine",
+            "Sugar",
+            "Fake",
+            "Expect",
+            "Experiment"
+        ]
+    },
+    {
+        "word": "Pluralistic Ignorance",
+        "forbiddenWords": [
+            "Group",
+            "Believe",
+            "Wrong",
+            "Conform",
+            "Think"
+        ]
+    },
+    {
+        "word": "Pluto",
+        "forbiddenWords": [
+            "Planet",
+            "Nine",
+            "Dog",
+            "Hades",
+            "Space"
+        ]
+    },
+    {
+        "word": "Politics",
+        "forbiddenWords": [
+            "Mind",
+            "Kill",
+            "Republic",
+            "Democrat",
+            "Power"
+        ]
+    },
+    {
+        "word": "Polyamory",
+        "forbiddenWords": [
+            "Love",
+            "Free",
+            "Open",
+            "Mono",
+            "Relationship"
+        ]
+    },
+    {
+        "word": "Post-Rationalist",
+        "forbiddenWords": [
+            "Emotion",
+            "Circle",
+            "Super",
+            "After",
+            "Splinter"
+        ]
+    },
+    {
+        "word": "Power Law",
+        "forbiddenWords": [
+            "Distribution",
+            "Scale",
+            "Exponential",
+            "Curve",
+            "Graph"
+        ]
+    },
+    {
+        "word": "Precision",
+        "forbiddenWords": [
+            "Accurate",
+            "Detail",
+            "Decimal",
+            "False",
+            "Narrow"
+        ]
+    },
+    {
+        "word": "Prediction",
+        "forbiddenWords": [
+            "Accurate",
+            "Forecast",
+            "Error",
+            "Market",
+            "Seer"
+        ]
+    },
+    {
+        "word": "Priming",
+        "forbiddenWords": [
+            "Before",
+            "Setup",
+            "Psychology",
+            "Replicate",
+            "Paint"
+        ]
+    },
+    {
+        "word": "Principle of Charity",
+        "forbiddenWords": [
+            "Interpret",
+            "Best",
+            "Steel",
+            "Assume",
+            "Generous"
+        ]
+    },
+    {
+        "word": "Prisoner's Dilemma",
+        "forbiddenWords": [
+            "Defect",
+            "Cooperate",
+            "Interrogate",
+            "Pay",
+            "Matrix"
+        ]
+    },
+    {
+        "word": "Program",
+        "forbiddenWords": [
+            "Computer",
+            "Instruction",
+            "Music",
+            "Code",
+            "Write "
+        ]
+    },
+    {
+        "word": "Quantum Immortality",
+        "forbiddenWords": [
+            "Isekai",
+            "Live",
+            "Truck",
+            "Die",
+            "Branch"
+        ]
+    },
+    {
+        "word": "Quantum Mechanics",
+        "forbiddenWords": [
+            "Physics",
+            "Superposition",
+            "Wave function",
+            "Schrödinger"
+        ]
+    },
+    {
+        "word": "Random",
+        "forbiddenWords": [
+            "Die",
+            "Hash",
+            "Noise",
+            "Clock",
+            "Predict"
+        ]
+    },
+    {
+        "word": "Rational",
+        "forbiddenWords": [
+            "Logical",
+            "Aspiring",
+            "Sense",
+            "Wrong",
+            "Descartes"
+        ]
+    },
+    {
+        "word": "Rationalist",
+        "forbiddenWords": [
+            "Reason",
+            "Logic",
+            "Evidence",
+            "Community"
+        ]
+    },
+    {
+        "word": "Recursion",
+        "forbiddenWords": [
+            "Iteration",
+            "Again",
+            "Repeat",
+            "Program",
+            "Function"
+        ]
+    },
+    {
+        "word": "Red Queen Hypothesis",
+        "forbiddenWords": [
+            "Evolution",
+            "Adapt",
+            "Compete",
+            "Survive",
+            "Change"
+        ]
+    },
+    {
+        "word": "Reductionism",
+        "forbiddenWords": [
+            "Simple",
+            "Parts",
+            "Break",
+            "Complex",
+            "Basic"
+        ]
+    },
+    {
+        "word": "Rene Descartes",
+        "forbiddenWords": [
+            "Philosophy",
+            "Science",
+            "Think",
+            "Am",
+            "Enlighten "
+        ]
+    },
+    {
+        "word": "Repetition",
+        "forbiddenWords": [
+            "Again",
+            "Loop",
+            "Learn",
+            "Habit",
+            "Cycle"
+        ]
+    },
+    {
+        "word": "Risk Assessment",
+        "forbiddenWords": [
+            "Danger",
+            "Evaluate",
+            "Probability",
+            "Harm",
+            "Chance"
+        ]
+    },
+    {
+        "word": "Ritual",
+        "forbiddenWords": [
+            "Candle",
+            "Night",
+            "Tradition",
+            "Circle",
+            "Solstice"
+        ]
+    },
+    {
+        "word": "Robin Hanson",
+        "forbiddenWords": [
+            "Futarchy",
+            "Economic",
+            "Cynic",
+            "Bias",
+            "Eliezer Yudkowsky"
+        ]
+    },
+    {
+        "word": "Robot",
+        "forbiddenWords": [
+            "Android",
+            "Arm",
+            "Asimov",
+            "Artificial",
+            "Automaton"
+        ]
+    },
+    {
+        "word": "Roko's Basilisk",
+        "forbiddenWords": [
+            "Thought experiment",
+            "AI",
+            "Blackmail",
+            "Future",
+            "Punish"
+        ]
+    },
+    {
+        "word": "Russell Conjugation",
+        "forbiddenWords": [
+            "And",
+            "Emotive",
+            "I",
+            "You",
+            "They"
+        ]
+    },
+    {
+        "word": "Sane",
+        "forbiddenWords": [
+            "Normal",
+            "Neurotypical",
+            "Expect",
+            "Function",
+            "Clean"
+        ]
+    },
+    {
+        "word": "Sapir-Whorf Hypothesis",
+        "forbiddenWords": [
+            "Word",
+            "Language",
+            "Mind",
+            "Brain",
+            "Think"
+        ]
+    },
+    {
+        "word": "Schelling Point",
+        "forbiddenWords": [
+            "Library",
+            "Post Office",
+            "Coordinate",
+            "Meet",
+            "Obvious"
+        ]
+    },
+    {
+        "word": "Schrodinger's Cat",
+        "forbiddenWords": [
+            "Quantum",
+            "Alive",
+            "Dead",
+            "Box",
+            "Physics"
+        ]
+    },
+    {
+        "word": "Science",
+        "forbiddenWords": [
+            "Experiment",
+            "Learn",
+            "World",
+            "Technology",
+            "Paper"
+        ]
+    },
+    {
+        "word": "Scott Alexander",
+        "forbiddenWords": [
+            "Astral",
+            "Slate",
+            "Star",
+            "Codex",
+            "Spiral"
+        ]
+    },
+    {
+        "word": "Secret",
+        "forbiddenWords": [
+            "Tell",
+            "Information",
+            "Reveal",
+            "Hide",
+            "Conspire"
+        ]
+    },
+    {
+        "word": "Selection Pressure",
+        "forbiddenWords": [
+            "Evolution",
+            "Survive",
+            "Adapt",
+            "Environment",
+            "Natural"
+        ]
+    },
+    {
+        "word": "Sequence",
+        "forbiddenWords": [
+            "Rationality",
+            "Count",
+            "Series",
+            "Set",
+            "Zombie"
+        ]
+    },
+    {
+        "word": "Shibboleth",
+        "forbiddenWords": [
+            "Distinguish",
+            "Language",
+            "Accent",
+            "Custom",
+            "Password"
+        ]
+    },
+    {
+        "word": "Simulation",
+        "forbiddenWords": [
+            "Matrix",
+            "Computer",
+            "Reality",
+            "Fake",
+            "Pretend"
+        ]
+    },
+    {
+        "word": "Simulation Hypothesis",
+        "forbiddenWords": [
+            "Virtual reality",
+            "Matrix",
+            "Universe",
+            "Nick Bostrom",
+            "Technology"
+        ]
+    },
+    {
+        "word": "Singularity",
+        "forbiddenWords": [
+            "Technological",
+            "Accelerating",
+            "Future",
+            "Rapid",
+            "Progress"
+        ]
+    },
+    {
+        "word": "Sleep",
+        "forbiddenWords": [
+            "Rest",
+            "Dream",
+            "Lie",
+            "Bed",
+            "Rem"
+        ]
+    },
+    {
+        "word": "Socrates",
+        "forbiddenWords": [
+            "Philosophy",
+            "Cave",
+            "Shadow",
+            "Solid",
+            "Hemlock"
+        ]
+    },
+    {
+        "word": "Solstice",
+        "forbiddenWords": [
+            "Winter",
+            "Summer",
+            "Song",
+            "Ray",
+            "Ritual"
+        ]
+    },
+    {
+        "word": "Soylent",
+        "forbiddenWords": [
+            "Powder",
+            "Food",
+            "Green",
+            "People",
+            "Replacement"
+        ]
+    },
+    {
+        "word": "Space",
+        "forbiddenWords": [
+            "Outer",
+            "Star",
+            "Sun",
+            "Planet",
+            "Ship"
+        ]
+    },
+    {
+        "word": "Stanford Prison Experiment",
+        "forbiddenWords": [
+            "Prison",
+            "Guard",
+            "Psychology",
+            "Ethics",
+            "Moral"
+        ]
+    },
+    {
+        "word": "Statistics",
+        "forbiddenWords": [
+            "Lies",
+            "Frequent",
+            "Bayes",
+            "Probability",
+            "Summary"
+        ]
+    },
+    {
+        "word": "Status",
+        "forbiddenWords": [
+            "People",
+            "Popular",
+            "Respect",
+            "High",
+            "Low"
+        ]
+    },
+    {
+        "word": "Steel Man",
+        "forbiddenWords": [
+            "Argument",
+            "Strong",
+            "Straw",
+            "Fair",
+            "Best"
+        ]
+    },
+    {
+        "word": "Strategy",
+        "forbiddenWords": [
+            "Tactic",
+            "Plan",
+            "General",
+            "Cunning",
+            "War"
+        ]
+    },
+    {
+        "word": "Straw Man",
+        "forbiddenWords": [
+            "Fallacy",
+            "Fake",
+            "Dumb",
+            "Easy",
+            "Argue"
+        ]
+    },
+    {
+        "word": "Streisand Effect",
+        "forbiddenWords": [
+            "Hide",
+            "Attention",
+            "Internet",
+            "Reveal",
+            "Suppress"
+        ]
+    },
+    {
+        "word": "Sturgeon's Law",
+        "forbiddenWords": [
+            "Crap",
+            "Scifi",
+            "90",
+            "Media",
+            "Author"
+        ]
+    },
+    {
+        "word": "Sun",
+        "forbiddenWords": [
+            "Star",
+            "Sol",
+            "Hot",
+            "Bright",
+            "Gas"
+        ]
+    },
+    {
+        "word": "Sunk Cost Fallacy",
+        "forbiddenWords": [
+            "Invest",
+            "Loss",
+            "Quit",
+            "Decision",
+            "Money"
+        ]
+    },
+    {
+        "word": "Superintelligence",
+        "forbiddenWords": [
+            "AI",
+            "Machines",
+            "Singularity",
+            "Nick Bostrom"
+        ]
+    },
+    {
+        "word": "Superset",
+        "forbiddenWords": [
+            "Group",
+            "More",
+            "All",
+            "Math",
+            "Include"
+        ]
+    },
+    {
+        "word": "Superstimuli",
+        "forbiddenWords": [
+            "Porn",
+            "Junk",
+            "Food",
+            "Overwhelm",
+            "Music"
+        ]
+    },
+    {
+        "word": "System 1",
+        "forbiddenWords": [
+            "Fast",
+            "Slow",
+            "Intuit",
+            "Brain",
+            "Reflex"
+        ]
+    },
+    {
+        "word": "Taboo",
+        "forbiddenWords": [
+            "Game",
+            "Rule",
+            "Avoid",
+            "Break",
+            "Superstition"
+        ]
+    },
+    {
+        "word": "Tautology",
+        "forbiddenWords": [
+            "Logic",
+            "Truth",
+            "Redundant",
+            "Statement",
+            "Valid"
+        ]
+    },
+    {
+        "word": "Technical Debt",
+        "forbiddenWords": [
+            "Code",
+            "Future",
+            "Quick",
+            "Fix",
+            "Cost"
+        ]
+    },
+    {
+        "word": "Theology",
+        "forbiddenWords": [
+            "Religion",
+            "Text",
+            "Sage",
+            "God",
+            "Rule"
+        ]
+    },
+    {
+        "word": "Theory",
+        "forbiddenWords": [
+            "Hypothesis",
+            "Evolution",
+            "Suspect",
+            "Guess",
+            "Science"
+        ]
+    },
+    {
+        "word": "Thermodynamics",
+        "forbiddenWords": [
+            "Heat",
+            "Energy",
+            "System",
+            "Entropy",
+            "Physics"
+        ]
+    },
+    {
+        "word": "Think",
+        "forbiddenWords": [
+            "Know",
+            "Compute",
+            "Test",
+            "School",
+            "Stop"
+        ]
+    },
+    {
+        "word": "Toxoplasma",
+        "forbiddenWords": [
+            "Cat",
+            "Two",
+            "Disease",
+            "Parasite",
+            "Spread"
+        ]
+    },
+    {
+        "word": "Trade-Off",
+        "forbiddenWords": [
+            "Economic",
+            "Perfect",
+            "Optimal",
+            "Give",
+            "Exchange"
+        ]
+    },
+    {
+        "word": "Tragedy of the Commons",
+        "forbiddenWords": [
+            "Resource",
+            "Shared",
+            "Deplete",
+            "Overuse",
+            "Group"
+        ]
+    },
+    {
+        "word": "Transcendentalism",
+        "forbiddenWords": [
+            "Nature",
+            "Good",
+            "Independant",
+            "Pond",
+            "Walden"
+        ]
+    },
+    {
+        "word": "Transhumanist",
+        "forbiddenWords": [
+            "Singularity",
+            "Cyborg",
+            "Limit",
+            "Mortal",
+            "Artificial"
+        ]
+    },
+    {
+        "word": "Transparent",
+        "forbiddenWords": [
+            "See",
+            "Through",
+            "Ghost",
+            "Illusion",
+            "Hologram"
+        ]
+    },
+    {
+        "word": "Trolley Problem",
+        "forbiddenWords": [
+            "Kill",
+            "Switch",
+            "Choose",
+            "Die",
+            "Five"
+        ]
+    },
+    {
+        "word": "Truth",
+        "forbiddenWords": [
+            "Beauty",
+            "Real",
+            "Own",
+            "Science",
+            "Speak"
+        ]
+    },
+    {
+        "word": "Turing Machine",
+        "forbiddenWords": [
+            "Computer",
+            "Complete",
+            "Program",
+            "Memory",
+            "Algorithm"
+        ]
+    },
+    {
+        "word": "Turing Test",
+        "forbiddenWords": [
+            "Computer",
+            "Chat",
+            "Human",
+            "Deceive",
+            "Talk"
+        ]
+    },
+    {
+        "word": "University",
+        "forbiddenWords": [
+            "College",
+            "School",
+            "Learning",
+            "Debt",
+            "Graduate"
+        ]
+    },
+    {
+        "word": "Unsong",
+        "forbiddenWords": [
+            "Book",
+            "Scott",
+            "Kaballah",
+            "Aaron",
+            "Comedy"
+        ]
+    },
+    {
+        "word": "Utilitarian",
+        "forbiddenWords": [
+            "Mill",
+            "Singer",
+            "Hedon",
+            "Great",
+            "Good"
+        ]
+    },
+    {
+        "word": "Utilitarianism",
+        "forbiddenWords": [
+            "Ethics",
+            "Happiness",
+            "Good",
+            "Philosophy",
+            "Consequentialism"
+        ]
+    },
+    {
+        "word": "Utility Function",
+        "forbiddenWords": [
+            "Preference",
+            "Optimize",
+            "Value",
+            "Outcome",
+            "Decision"
+        ]
+    },
+    {
+        "word": "Value Drift",
+        "forbiddenWords": [
+            "Visser",
+            "Desire",
+            "Difference",
+            "Change",
+            "Organization"
+        ]
+    },
+    {
+        "word": "Variable",
+        "forbiddenWords": [
+            "Change",
+            "Factor",
+            "Depend",
+            "Different",
+            "Measure"
+        ]
+    },
+    {
+        "word": "Veil Of Ignorance",
+        "forbiddenWords": [
+            "Rawls",
+            "Before",
+            "World",
+            "Philosophy",
+            "Person"
+        ]
+    },
+    {
+        "word": "Virtue",
+        "forbiddenWords": [
+            "Good",
+            "Vice",
+            "Deontology",
+            "Nice",
+            "Grow"
+        ]
+    },
+    {
+        "word": "Virtue Ethics",
+        "forbiddenWords": [
+            "Moral",
+            "Character",
+            "Aristotle",
+            "Virtue",
+            "Deontology"
+        ]
+    },
+    {
+        "word": "Void",
+        "forbiddenWords": [
+            "Space",
+            "Black",
+            "Eternity",
+            "Hole",
+            "Empty"
+        ]
+    },
+    {
+        "word": "Wertifloke",
+        "forbiddenWords": [
+            "Naruto",
+            "Fanfiction",
+            "Waves",
+            "Arise",
+            "Ninja"
+        ]
+    },
+    {
+        "word": "William MacAskill",
+        "forbiddenWords": [
+            "Effective",
+            "Altruism",
+            "Hours",
+            "Give",
+            "Singer"
+        ]
+    },
+    {
+        "word": "Wireheading",
+        "forbiddenWords": [
+            "Pleasure",
+            "Hedon",
+            "Max",
+            "Drug",
+            "Stimulate"
+        ]
+    },
+    {
+        "word": "Word",
+        "forbiddenWords": [
+            "Definition",
+            "Noun",
+            "Verb",
+            "Speech",
+            "Sentence"
+        ]
+    },
+    {
+        "word": "Working Memory",
+        "forbiddenWords": [
+            "Short",
+            "Store",
+            "Brain",
+            "Remember",
+            "Capacity"
+        ]
+    },
+    {
+        "word": "Yudkowsky",
+        "forbiddenWords": [
+            "Eliezer",
+            "Bias",
+            "LessWrong",
+            "AI",
+            "Sequences"
+        ]
+    },
+    {
+        "word": "Zeno's Paradox",
+        "forbiddenWords": [
+            "Arrow",
+            "Calculus",
+            "Approach",
+            "Reach",
+            "Half"
+        ]
+    }
 ]
