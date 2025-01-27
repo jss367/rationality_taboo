@@ -390,6 +390,16 @@
     "forbiddenWords": ["Die", "Roll", "Game", "Random", "Six"]
   },
   {
+    "word": "Dissolving the Question",
+    "forbiddenWords": [
+      "Confusion",
+      "Clarify",
+      "Answer",
+      "Explain",
+      "Understand"
+    ]
+  },
+  {
     "word": "Dojo",
     "forbiddenWords": ["Martial", "Studio", "Art", "Practice", "Train"]
   },
@@ -772,10 +782,6 @@
   {
     "word": "Lindy Effect",
     "forbiddenWords": ["Time", "Survive", "Future", "Old", "Expect"]
-  },
-  {
-    "word": "Litany",
-    "forbiddenWords": ["Gendlin", "Chant", "Jai", "Tarski", "Prayer"]
   },
   {
     "word": "Literal",
@@ -1367,6 +1373,20 @@
   {
     "word": "Technical Debt",
     "forbiddenWords": ["Code", "Future", "Quick", "Fix", "Cost"]
+  },
+  {
+    "word": "The Litany of Tarski",
+    "forbiddenWords": ["Truth", "World", "Understand", "Reality", "Beliefs"]
+  },
+  {
+    "word": "The Map Is Not the Territory",
+    "forbiddenWords": [
+      "Model",
+      "Reality",
+      "Representation",
+      "Accurate",
+      "Approximate"
+    ]
   },
   {
     "word": "Theology",
